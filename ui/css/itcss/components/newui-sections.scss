@@ -1,0 +1,271 @@
+$sub-mid-size-breakpoint: 667px;
+$sub-mid-size-breakpoint-range: "screen and (min-width: #{$break-large}) and (max-width: #{$sub-mid-size-breakpoint})";
+
+/*
+  NewUI Container Elements
+ */
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow-x: hidden;
+  position: relative;
+  align-items: center;
+}
+
+// Fix for UI lag on external monitor: https://github.com/MetaMask/metamask-extension/issues/10173
+.app.os-mac.browser-chrome::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  background-color: $Grey-000;
+  animation: emptySpinningDiv 1s infinite linear;
+}
+
+@keyframes emptySpinningDiv {
+  0% { transform: rotate(0deg); }
+  to { transform: rotate(1turn); }
+}
+
+.main-container-money{
+  margin-right: auto;
+  padding: 10px 20px 0;
+  display: flex;
+  // span{
+  //   font-size: 30px;
+  //   color: #fff;
+  //   margin-right: 9px;
+  // }
+  // em{
+  //   color: #fff;
+  //   opacity: 0.6;
+  // }
+}
+.main-container-address{
+  padding: 0 20px ;
+  margin-top: 27px;
+  margin-bottom: 20px;
+  width: 100%;
+  .main-container-address-cont{ 
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background: url(./images/operation-bg.png) no-repeat;
+    background-size: 100%;
+    padding: 0 14px;
+    span{
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #7F5AF0;
+      margin-right: 10px;
+
+      display: none;
+    }
+    .name{
+      color: #fff;
+      font-size: 15px;
+      margin-right: 5px;
+      margin-left: 6px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .address{
+      color: #fff;
+      opacity: 0.6;
+      font-size: 12px;
+    } 
+    .operation{
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+      img{
+        width: 13px;
+        margin-left: 12px;
+      }
+    }
+  }
+}
+
+.main-container-coincode{
+  width: 85px;
+  background: url(./images/coincode-switch.png);
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 20px;
+  span{
+    width: 42.5px;
+    height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    &.an{
+      background: url(./images/coincode-switch-active.png);
+      background-size: 100%;
+    }
+  }
+}
+
+.main-container::-webkit-scrollbar {
+  display: none; 
+} 
+
+.main-container-wrapper {
+  display: flex;
+  justify-content: center;
+  flex: 1 0 auto;
+  min-height: 0;
+  width: 100%;
+  position: relative;
+  // background-color: #292A36;
+  .page-container-header{
+    font-family: Euclid, Roboto, Helvetica, Arial, sans-serif;
+    line-height: 140%;
+    font-style: normal;
+    font-weight: normal;
+    color: #24292e;
+    background-color: inherit;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #fff;
+    position: relative;
+    width: 100%;
+    background: rgba(0,0,0,0);
+    padding: 16px;
+    img{
+      width: 24px;
+    }
+    .content{
+      position: absolute;
+      left: 40px;
+      right: 40px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      text-align: center;
+    }
+  }
+}
+
+// main-container media queries
+
+@media screen and (min-width: 576px) {
+  .lap-visible {
+    display: flex;
+  }
+
+  .phone-visible {
+    display: none;
+  }
+
+  .main-container {
+    width: 85vw;
+    margin-bottom: 10vh;
+    min-height: 90vh;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.08);
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .main-container {
+    width: 80vw;
+    min-height: 82vh;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.08);
+  }
+}
+
+@media screen and (min-width: 1281px) {
+  .main-container {
+    width: 62vw;
+    min-height: 82vh;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.08);
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .lap-visible {
+    display: none;
+  }
+
+  .phone-visible {
+    display: flex;
+  }
+
+  .main-container {
+    width: 100%;
+    overflow-y: auto;
+  }
+
+  .main-container-wrapper {
+    flex: 1;
+  }
+}
+
+.fiat-amount {
+  text-transform: uppercase;
+}
+
+.token-balance__amount {
+  padding: 0 6px;
+}
+
+// first time
+.first-view-main {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+
+  @media screen and (max-width: 575px) {
+    height: 100%;
+  }
+
+  @media screen and (min-width: 576px) {
+    width: 85vw;
+  }
+
+  @media screen and (min-width: 769px) {
+    width: 80vw;
+  }
+
+  @media screen and (min-width: 1281px) {
+    width: 62vw;
+  }
+}
+
+.unlock-screen-container {
+  z-index: $main-container-z-index;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 auto;
+  background: #f7f7f7;
+  width: 100%;
+}
+
+.unlock-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 auto;
+}
+
+.first-view-main-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding: 0 10px;
+  // background: white;
+}

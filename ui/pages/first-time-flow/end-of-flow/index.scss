@@ -1,0 +1,101 @@
+.end-of-flow {
+  color: #fff;
+  font-style: normal;
+  padding: 0 16px;
+  .app-header__logo-container {
+    width: 742px;
+    margin-top: 3%;
+
+    @media screen and (max-width: $break-small) {
+      width: 100%;
+    }
+  }
+
+  .end-of-logo{
+    display: flex;
+    align-items: center;
+    margin: 40px 0;
+    img{
+      width: 30px;
+    }
+    span{
+      font-size: 24px;
+      font-weight: bold;
+      margin-left: 18px;
+    }
+  }
+
+  &__title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    img{
+      width: 32px;
+      margin-right: 18px;
+    }
+    span{
+      font-size: 27px;
+    }
+  }
+
+  &__tip{
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+
+  &__describe-title{
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+
+  &__describe-li{
+    color: #fff;
+    opacity: 0.9;
+    line-height: 30px;
+  }
+
+  &__button{
+    width: 350px;
+    margin-top: 200px;
+  }
+
+  &__text-1,
+  &__text-3 {
+    @include Paragraph;
+
+    font-weight: normal;
+    margin-top: 18px;
+  }
+
+  &__text-2 {
+    @include Paragraph;
+
+    font-weight: bold;
+    margin-top: 26px;
+  }
+
+  &__text-3 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+
+    @media screen and (max-width: $break-small) {
+      @include H6;
+
+      margin-bottom: 16px;
+    }
+  }
+
+  &__text-4 {
+    margin-top: 26px;
+  }
+
+  &__start-over-button {
+    width: 744px;
+  }
+
+  &__emoji {
+    font-size: 80px;
+    margin-top: 70px;
+  }
+}

@@ -1,0 +1,56 @@
+.connected-sites {
+  h2 {
+    text-overflow: ellipsis;
+    margin-right: 10px;
+  }
+
+  &__confirmation {
+    flex-direction: column;
+
+    button:first-child {
+      margin-right: 24px;
+    }
+  }
+
+  &__footer-row {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__footer-row-cancel{
+    width: 120px;
+    height: 47px;
+    line-height: 47px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    background: url(./images/create-btn1.png);
+    background-size: 100%;
+    cursor: pointer;
+  }
+  &__footer-row-disconnet{
+    width: 120px;
+    height: 47px;
+    line-height: 47px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    background: url(./images/create-btn2.png);
+    background-size: 100%;
+    cursor: pointer;
+  }
+
+  &__footer-row + &__footer-row {
+    margin-top: 15px;
+  }
+
+  a,
+  a:hover {
+    @include H6;
+
+    color: $primary-blue;
+    cursor: pointer;
+  }
+}

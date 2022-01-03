@@ -1,0 +1,22 @@
+.network-form{
+
+    &__button{
+      width: 100px;
+      height: 47px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff; 
+      cursor: pointer;
+      background: url('./images/network-form-button-1.png') no-repeat;
+      background-size: contain;
+    }
+    &__button-cancel{
+        background: url('./images/network-form-button-1.png') no-repeat;
+        background-size: contain; 
+    }
+    &__button-save{
+        background: url('./images/network-form-button-2.png') no-repeat;
+        background-size: contain; 
+    }
+}

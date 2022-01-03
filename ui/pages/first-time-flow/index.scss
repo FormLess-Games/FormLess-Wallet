@@ -1,0 +1,362 @@
+@import 'welcome/index';
+@import 'select-action/index';
+@import 'seed-phrase/index';
+@import 'end-of-flow/index';
+@import 'metametrics-opt-in/index';
+
+
+.first-time-flow {
+  width: 100%;
+  background-color: $white;
+  display: flex;
+  justify-content: center;
+  background: url(./images/bg.png);
+  &__wrapper {
+    @media screen and (min-width: $break-large) {
+      max-width: 742px;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-top: 2%;
+    }
+
+    .app-header__metafox-logo {
+      margin-bottom: 40px;
+
+      @media screen and (max-width: $break-small) {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+    label{
+      color: #fff;
+    }
+    input{
+      color: #fff;
+    }
+  }
+
+  &__create-back {
+    margin-bottom: 16px;
+    span{
+      margin-left: 30px;
+      font-size: 26px;
+      color: #333
+    }
+  }
+
+  &__header {
+    @include H1;
+
+    margin-bottom: 24px;
+    color: #fff;
+    font-size: 27px;
+  }
+
+  &__states{
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+    justify-content: center;
+    img{
+      width: 67px;
+    }
+  }
+  &__network{
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    font-size: 14px;
+    span{
+      color: #fff;
+    }
+    em{
+      color: #2079FF;
+    }
+    .network-list{
+      margin-left: auto;
+      display: flex;
+      width: 170px;
+      justify-content: flex-end;
+      .network-li{
+        cursor: pointer;
+        width: 28px;
+        height: 28px;
+        margin-left: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        color: #fff;
+        background: rgb(104,102,102);
+        &.an{
+          background: #7C62E6;
+        }
+        img{
+          width: 28px;
+          height: 28px;
+        }
+      }
+    }
+  }
+
+
+  &__states-li{
+    width: 60px;
+    text-align: center;
+    &.an{
+      span{
+        background: #7C62E6;
+        color: #fff;
+      }
+      p{
+        color: #7C62E6;
+      }
+    }
+    p{
+      font-size: 12px;
+      color: #fff;
+      opacity: 0.6;
+    }
+    span{
+      width: 28px;
+      height: 28px;
+      display: block;
+      margin: 0 auto 10px;
+      line-height: 28px;
+      font-size: 15px;
+      border-radius: 50%;
+      color: #000;
+      font-weight: bold;
+      background: #eee;
+    }
+  }
+
+  &__subheader {
+    margin-bottom: 16px;
+  }
+
+
+  &__textarea-wrapper {
+    margin-bottom: 8px;
+    display: inline-flex;
+    padding: 0;
+    position: relative;
+    min-width: 0;
+    flex-direction: column;
+    max-width: 350px;
+  }
+
+  &__textarea-label {
+    @include H4;
+
+    margin-bottom: 9px;
+    color: #1b344d;
+  }
+
+  &__textarea {
+    @include Paragraph;
+
+    /*rtl:ignore*/
+    direction: ltr;
+    border: 1px solid #cdcdcd;
+    border-radius: 6px; 
+    background-color: #fff;
+    padding: 16px;
+    margin-top: 8px;
+    resize: none;
+    background: rgb(43,45,46);
+    color: #fff;
+  }
+
+  &__seedphrase {
+    margin-top: 9px !important;
+  }
+
+  &__breadcrumbs {
+    margin: 36px 0;
+  }
+
+  &__text-block {
+    margin-bottom: 24px;
+    color: black;
+
+    @media screen and (max-width: $break-small) {
+      @include H6;
+
+      margin-bottom: 16px;
+    }
+  }
+
+  &__button {
+    margin: 35px 0;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: url(./images/key-bg.png);
+    background-size: cover;
+    width: 308px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    border-color: inherit !important;
+    background-color: initial !important;
+    border: none;
+    &.an{
+      margin: 50px auto 0;
+    }
+    img{
+      margin-right: 15px;
+      width: 18px;
+    }  
+  }
+
+  &__bot-btn{
+    padding: 0 16px;
+    margin-bottom: 40px;
+    .first-time-flow__button{
+      margin: 0;
+      &.an{
+        margin: 40px 0 20px;
+      }
+    }
+  } 
+  &__tip{
+    margin-top: 15px;
+    display: flex;
+    width: 100%;
+    padding: 0 16px;
+    img{
+      height: 20px;
+      width: 20px;
+    }
+    .tip-info{
+      margin-left: 10px;
+      flex: 1;
+      p{
+        line-height: 20px;
+        font-size: 14px;
+        color: #fff;
+        opacity: 0.9;
+      }
+    }
+  }
+  .rs-err-valid{
+    position: fixed;
+    bottom: 100px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid rgba(136, 159, 172, 0.4);
+    border-radius: 28px;
+    padding: 0 17px;
+    width: max-content;
+    background: #000;
+    img{
+      width: 24px;
+      height: 24px;
+      margin-right: 12px;
+    }
+    span{
+      color: #fff;
+      font-size: 14px;
+      opacity: 0.8;
+    }
+  } 
+  &__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .first-time-flow__li{
+      width: 160px;
+      margin-right: 10px;
+      background: url(./images/terms.png);
+      margin-bottom: 10px;
+      height: 37px;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      display: flex;
+      align-items: center;
+      padding: 0 15px;
+      background: rgb(127,90,240);
+      &.an{
+        opacity: 0.6; 
+      }
+      &:nth-child(even){
+        margin-right: 0;
+      }
+      span{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: #fff;
+        color: #7C62E6;
+        text-align: center;
+        line-height: 20px;
+        font-size: 13px;
+        margin-right: 8px;
+      }
+      em{
+        color: #fff;
+        flex: 1;
+        overflow: hidden;
+        font-size: 14px;
+      }
+    }
+  }
+
+  &__checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+  }
+
+  &__checkbox {
+    background: #fff;
+    border: 1px solid #cdcdcd;
+    box-sizing: border-box;
+    height: 34px;
+    width: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+      border: 1.5px solid #2f9ae0;
+    }
+
+    .fa-check {
+      color: #2f9ae0;
+    }
+  }
+
+  &__checkbox-label {
+    @include H4;
+
+    color: #939090;
+    margin-left: 18px;
+  }
+
+  &__link-text {
+    color: $primary-blue;
+  }
+}
+
+.first-time-flow__wrapper.intro {
+  @media screen and (min-width: $break-large) {
+    max-width: 1010px;
+  }
+
+  @media screen and (max-width: 1010px) {
+    padding: 0 20px;
+  }
+}

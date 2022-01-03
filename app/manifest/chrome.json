@@ -1,0 +1,7 @@
+{
+  "externally_connectable": {
+    "ids": ["*"],
+    "matches": ["https://example.com/*"]
+  },
+  "minimum_chrome_version": "63"
+}

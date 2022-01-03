@@ -1,0 +1,165 @@
+.unlock-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 357px;
+  padding: 30px;
+  font-weight: 400;
+  color: $silver-chalice;
+  background: url(./images/unlock-bg.png);
+  background-size: cover;
+  &__container {
+    background: $white;
+    display: flex;
+    align-self: stretch;
+    justify-content: center;
+    flex: 1 0 auto;
+  }
+
+  &__mascot-container {
+    margin-top: 24px;
+  }
+
+  &__title {
+    @include H2;
+
+    margin-top: 5px;
+    font-weight: 800;
+    color: $tundora;
+    &.an{
+      font-size: 42px;
+      color: #fff;
+      padding-top: 26px;
+    }
+  }
+
+  &__from{
+    width: 310px;
+    margin-top: 53px;
+    .unlock-page__text{
+      font-size: 14px;
+      color: #fff;
+    }
+    .unlock-page__input{
+      height: 44px;
+      display: flex;
+      align-items: center;
+      margin-top: 15px;
+      background: url(./images/unlock-input.png);
+      background-size: 100%;
+      padding: 0 16px;
+      input{
+        flex: 1;
+        background: rgba(0,0,0,0);
+        border: none;
+        font-size: 16px;
+        color: #fff;
+        outline: none
+        
+        
+        ;
+      }
+      img{
+        width: 20px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  &__error{
+    color: #f44336;
+    font-size: 14px;
+    line-height: 24px;
+    min-height: 24px;
+  }
+
+  &__import-text{
+    color: #7C62E6;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  &__select-network{
+    position: relative;
+    width: 250px;
+    margin-top: 45px;
+    .h{
+      width: 100%;
+      height: 1px;
+      background: #fff;
+      z-index: 1;
+      position: absolute;
+    }
+    .h-title{
+      position: absolute;
+      left: 50%;
+      top: -9px;
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%);
+      background: #000;
+      padding: 0 20px;
+      z-index: 2;
+      font-size: 14px;
+      min-width: 180px;
+      text-align: center;
+    }
+  }
+
+  &__select-network-list{
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+      width: 30px;
+      margin-right: 12px;
+    }
+  }
+
+
+  &__small-title{
+    font-size: 32px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+
+  &__tip{
+    font-size: 18px;
+    margin-top: 15px;
+  }
+
+  &__form {
+    width: 100%;
+    margin: 56px 0 8px;
+  }
+
+  &__links {
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    font-size: 0.75rem;
+
+    button {
+      font-weight: bold;
+    }
+  }
+
+  &__link {
+    cursor: pointer;
+    background-color: unset;
+    color: $Blue-500;
+    font-size: unset;
+  }
+
+  &__support {
+    margin-top: 25px;
+    font-size: 0.75rem;
+
+    a {
+      color: $Blue-500;
+    }
+  }
+}

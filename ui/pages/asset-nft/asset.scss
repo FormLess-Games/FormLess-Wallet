@@ -1,0 +1,70 @@
+.asset-nft-info{
+  .asset-nft-info-img{
+    margin: 15px auto;
+    width: 225px;
+    height: 225px;
+    img{
+      max-width: 100%;
+      max-height: 100%;
+      border-radius: 6px;
+    }
+  }
+  .name{
+    text-align: center;
+    width: 225px;
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
+    margin: 0 auto 25px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .contract-address{
+    padding: 0 16px;
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #fff;
+    height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    &.an{
+      display: flex;
+      overflow: inherit;
+      height: 40px;
+      text-overflow: inherit;
+      white-space: break-spaces;
+      div{
+        flex: 1;
+        word-break: break-all;
+        line-height: 20px;
+      }
+    }
+  }
+}
+.eth-overview-btn-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+  div{
+    height: 34px;
+    width: 95px;
+    margin-right: 25px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    background: url(./images/terms.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &.an{
+      opacity: 0.6;
+    }
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+}

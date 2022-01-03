@@ -1,0 +1,2763 @@
+{
+  "SelectContact": {
+    "message": "選擇聯系人"
+  },
+  "about": {
+    "message": "關於"
+  },
+  "aboutSettingsDescription": {
+    "message": "版本、支持中心和聯系方式。"
+  },
+  "acceleratingATransaction": {
+    "message": "* 設定更高燃料價格，可以加快交易完成進度，提高網絡快速處理機率，但無法保證每次均能夠實現提速。"
+  },
+  "acceptTermsOfUse": {
+    "message": "我已閱讀並同意 $1",
+    "description": "$1 是`terms` 消息"
+  },
+  "accessAndSpendNotice": {
+    "message": "$1 可以訪問並使用此最大數額",
+    "description": "$1 是請求消費能力的網站"
+  },
+  "accessingYourCamera": {
+    "message": "正在獲取您的相機……"
+  },
+  "account": {
+    "message": "賬戶"
+  },
+  "accountDetails": {
+    "message": "賬戶詳情"
+  },
+  "accountName": {
+    "message": "賬戶名稱"
+  },
+  "accountOptions": {
+    "message": "賬戶選項"
+  },
+  "accountSelectionRequired": {
+    "message": "您需要選擇一個賬戶 ！"
+  },
+  "active": {
+    "message": "當前"
+  },
+  "activity": {
+    "message": "活動"
+  },
+  "activityLog": {
+    "message": "活動日誌"
+  },
+  "add": {
+    "message": "添加"
+  },
+  "addAcquiredTokens": {
+    "message": "在 FormLess 上添加獲得的代幣"
+  },
+  "addAlias": {
+    "message": "添加別名"
+  },
+  "addContact": {
+    "message": "添加聯系人"
+  },
+  "addCustomTokenByContractAddress": {
+    "message": "找不到代幣嗎？您可以通過粘貼令牌的地址來手動添加任何令牌。 令牌合同地址可在 $1 上找到。",
+    "description": "$1是特定網絡的區塊，例如以太坊的Etherscan"
+  },
+  "addEthereumChainConfirmationDescription": {
+    "message": "這將允許該網絡在FormLess中使用。"
+  },
+  "addEthereumChainConfirmationRisks": {
+    "message": "Formless不驗證自定義網絡。"
+  },
+  "addEthereumChainConfirmationRisksLearnMore": {
+    "message": "了解 $1.",
+    "description": "$1 是帶文本的鏈接，由 'addEthereumChainConfirmationRisksLearnMoreLink' 鍵提供"
+  },
+  "addEthereumChainConfirmationRisksLearnMoreLink": {
+    "message": "詐騙和網絡安全風險",
+    "description": "'addEthereumChainConfirmationRisksLearnMore' 翻譯鍵的鏈接文本"
+  },
+  "addEthereumChainConfirmationTitle": {
+    "message": "允許此站點添加網絡?"
+  },
+  "addFriendsAndAddresses": {
+    "message": "添加您信任的朋友和地址"
+  },
+  "addNFTTokenError": {
+    "message": "當前合約不符合ERC721與ERC1155標準或當前地址未擁有此TokenId"
+  },
+  "addNetwork": {
+    "message": "添加網絡"
+  },
+  "addRecipient": {
+    "message": "添加接收方"
+  },
+  "addSuggestedTokens": {
+    "message": "添加推薦代幣"
+  },
+  "addToAddressBook": {
+    "message": "添加地址簿"
+  },
+  "addToAddressBookModalPlaceholder": {
+    "message": "如：John D."
+  },
+  "addToken": {
+    "message": "添加代幣"
+  },
+  "addTokens": {
+    "message": "添加代幣"
+  },
+  "address": {
+    "message": "地址"
+  },
+  "addressBookIcon": {
+    "message": "聯系人 icon"
+  },
+  "addressDeatil": {
+    "message": "錢包詳情"
+  },
+  "addressError": {
+    "message": "地址格式錯誤"
+  },
+  "advanced": {
+    "message": "高級"
+  },
+  "advancedOptions": {
+    "message": "高級選項"
+  },
+  "advancedSettingsDescription": {
+    "message": "訪問開發者功能，下載狀態日誌，重置賬戶，設置測試網和自定義 RPC。"
+  },
+  "affirmAgree": {
+    "message": "我同意"
+  },
+  "aggregatorFeeCost": {
+    "message": "聚集器網絡手續費"
+  },
+  "alertDisableTooltip": {
+    "message": "這個可以在「設置 > 提醒」中進行更改"
+  },
+  "alertSettingsUnconnectedAccount": {
+    "message": "選擇了未連接的賬戶時瀏覽網站"
+  },
+  "alertSettingsUnconnectedAccountDescription": {
+    "message": "當您在瀏覽已連接的 Web3 網站，但當前選擇的賬戶沒有連接時，該提醒會在彈出的窗口中顯示。"
+  },
+  "alertSettingsWeb3ShimUsage": {
+    "message": "當網站嘗試使用已經刪除的 window.web3 API"
+  },
+  "alertSettingsWeb3ShimUsageDescription": {
+    "message": "當您在瀏覽的網站嘗試使用已經刪除的 window.web3 API 時，該提醒會在彈出的窗口中顯示。"
+  },
+  "alerts": {
+    "message": "提醒"
+  },
+  "alertsSettingsDescription": {
+    "message": "啟用或禁用每個提醒"
+  },
+  "allNumber": {
+    "message": "全部"
+  },
+  "allowExternalExtensionTo": {
+    "message": "允許這個外部擴展到："
+  },
+  "allowOriginSpendToken": {
+    "message": "允許 $1 使用您的 $2?",
+    "description": "$1 是網站的網址，$2 是他們要求花費的代幣的符號"
+  },
+  "allowThisSiteTo": {
+    "message": "允許本網站："
+  },
+  "allowWithdrawAndSpend": {
+    "message": "允許 $1 提取和最多消費以下數額：",
+    "description": "是請求「取款和消費」許可的網站的網址'"
+  },
+  "amount": {
+    "message": "數額"
+  },
+  "amountGasFee": {
+    "message": "金額 + Gas 費用"
+  },
+  "amountWithColon": {
+    "message": "數額："
+  },
+  "appDescription": {
+    "message": "以太坊瀏覽器插件",
+    "description": "申請說明"
+  },
+  "appName": {
+    "message": "FormLess",
+    "description": "應用程序名稱"
+  },
+  "approvalAndAggregatorTxFeeCost": {
+    "message": "批準聚合商網絡手續費"
+  },
+  "approvalTxGasCost": {
+    "message": "批準交易燃料成本"
+  },
+  "approve": {
+    "message": "批準消費限額"
+  },
+  "approveButtonText": {
+    "message": "Approve"
+  },
+  "approveSpendLimit": {
+    "message": "批準 $1 消費限額",
+    "description": "被批準的代幣符號"
+  },
+  "approved": {
+    "message": "已批準"
+  },
+  "asset": {
+    "message": "資產"
+  },
+  "assetOptions": {
+    "message": "Asset options"
+  },
+  "assets": {
+    "message": "資產"
+  },
+  "attemptToCancel": {
+    "message": "想要取消嗎？"
+  },
+  "attemptToCancelDescription": {
+    "message": "確認提交該操作無法保證能夠成功取消您的原始交易。如取消成功，您將被收取上述交易費。"
+  },
+  "attemptingConnect": {
+    "message": "正在嘗試連接到區塊鏈。"
+  },
+  "attributions": {
+    "message": "來源"
+  },
+  "authorizedPermissions": {
+    "message": "您已授權以下權限"
+  },
+  "autoLockTimeLimit": {
+    "message": "自動鎖定定時（分鐘）"
+  },
+  "autoLockTimeLimitDescription": {
+    "message": "請設置 FormLess 自動鎖定前的空閑時間（單位：分鐘）"
+  },
+  "average": {
+    "message": "平均值"
+  },
+  "awaitData": {
+    "message": "正在同步tokenUri數據中!"
+  },
+  "back": {
+    "message": "返回"
+  },
+  "backToAll": {
+    "message": "返回全部"
+  },
+  "backupApprovalInfo": {
+    "message": "如果不慎丟失個人設備，忘記密碼，或者需要重新安裝 FormLess，亦或是需在另一臺設備上打開錢包，請使用該保密碼恢復個人錢包數據。"
+  },
+  "backupApprovalNotice": {
+    "message": "請確保您在安全的地方備份助記詞！一旦他人竊取您的助記詞，您的資產可節能損失."
+  },
+  "backupNow": {
+    "message": "立即備份"
+  },
+  "backupsWords": {
+    "message": "備份助記詞"
+  },
+  "balance": {
+    "message": "余額 "
+  },
+  "balanceOutdated": {
+    "message": "余額可能已過期"
+  },
+  "basic": {
+    "message": "基本"
+  },
+  "blockExplorerUrl": {
+    "message": "區塊瀏覽器"
+  },
+  "blockExplorerUrlDefinition": {
+    "message": "此網址用作此網絡的區塊瀏覽器。"
+  },
+  "blockExplorerView": {
+    "message": "通過 $1 查看賬戶",
+    "description": "$1 由自定義塊瀏覽器的 URL 替換"
+  },
+  "blockiesIdenticon": {
+    "message": "使用 Blockies Identicon 圖標頭像"
+  },
+  "browserNotSupported": {
+    "message": "您的瀏覽器不支持該功能……"
+  },
+  "buildContactList": {
+    "message": "建立您的聯系人列表"
+  },
+  "builtAroundTheWorld": {
+    "message": "Formless 是在世界各地設計和製造的."
+  },
+  "buy": {
+    "message": "購買"
+  },
+  "buyWithTransak": {
+    "message": "用Transak購買ETH"
+  },
+  "buyWithTransakDescription": {
+    "message": "Transak 在超過 59 個國家/地區支持借記卡和銀行轉賬（取決於位置） ETH 存入您的 FormLess 賬戶."
+  },
+  "buyWithWyre": {
+    "message": "使用 Wyre 購買 ETH"
+  },
+  "buyWithWyreDescription": {
+    "message": "您可以通過 Wyre 使用信用卡將 ETH 存入您的 FormLess 賬戶。"
+  },
+  "bytes": {
+    "message": "字節"
+  },
+  "canToggleInSettings": {
+    "message": "您可以在 設置 -> 提醒 中重新啟用該提醒通知。"
+  },
+  "cancel": {
+    "message": "取消"
+  },
+  "cancellationGasFee": {
+    "message": "取消交易燃料費用"
+  },
+  "cancelled": {
+    "message": "已取消"
+  },
+  "chainId": {
+    "message": "鏈 ID"
+  },
+  "chainIdDefinition": {
+    "message": "鏈ID用於對此網絡的交易進行簽名。"
+  },
+  "chainIdExistsErrorMsg": {
+    "message": "此鏈ID當前由 $1 網絡使用。"
+  },
+  "chromeRequiredForHardwareWallets": {
+    "message": "您需要在谷歌瀏覽器（Google Chrome）上使用 FormLess 才能連接到您的硬件錢包。"
+  },
+  "clickToRevealSeed": {
+    "message": "點擊此處顯示密語"
+  },
+  "close": {
+    "message": "關閉"
+  },
+  "complateGoWallet": {
+    "message": "已完成進入錢包"
+  },
+  "confirm": {
+    "message": "確認"
+  },
+  "confirmPassword": {
+    "message": "確認密碼"
+  },
+  "confirmSecretBackupPhrase": {
+    "message": "請確認您的賬戶助記詞"
+  },
+  "confirmed": {
+    "message": "確認"
+  },
+  "confusableUnicode": {
+    "message": "'$1' is similar to '$2'."
+  },
+  "confusableZeroWidthUnicode": {
+    "message": "找到零寬度字符."
+  },
+  "confusingEnsDomain": {
+    "message": "我們在 ENS 名稱中檢測到一個易混淆的字符.檢查 ENS 名稱以避免潛在的騙局."
+  },
+  "congratulations": {
+    "message": "恭喜"
+  },
+  "connect": {
+    "message": "連接"
+  },
+  "connectAccountOrCreate": {
+    "message": "連接賬戶或創建新賬戶"
+  },
+  "connectHardwareWallet": {
+    "message": "連接硬件錢包"
+  },
+  "connectManually": {
+    "message": "手動連接到當前站點"
+  },
+  "connectTo": {
+    "message": "連接到 $1",
+    "description": "$1是用戶可以連接到formless的 web3 站點/應用程序的名稱/來源"
+  },
+  "connectToAll": {
+    "message": "連接到您的全部$1",
+    "description": "$1 將替換為 connectToAllAccounts 的翻譯"
+  },
+  "connectToAllAccounts": {
+    "message": "賬戶",
+    "description": "將替換 connectToAll 中的 $1，完成句子「連接到您的所有帳戶」，將是顯示懸停帳戶列表的文本"
+  },
+  "connectToMultiple": {
+    "message": "連接到  $1",
+    "description": "$1 將替換為 connectToMultipleNumberOfAccounts 的翻譯"
+  },
+  "connectToMultipleNumberOfAccounts": {
+    "message": "$1 個賬戶",
+    "description": "$1是 web3 站點/應用程序要求連接的帳戶數量； 這將替換 connectToMultiple 中的 $1"
+  },
+  "connectWithMetaMask": {
+    "message": "使用 FormLess 連接"
+  },
+  "connectedAccountsDescriptionPlural": {
+    "message": "您有 $1 個賬戶連接到了該網站。",
+    "description": "$1 is the number of accounts"
+  },
+  "connectedAccountsDescriptionSingular": {
+    "message": "您有 1 個賬戶連接到了該網站。"
+  },
+  "connectedAccountsEmptyDescription": {
+    "message": "FormLess 沒有連接這個網站。要連接到 web3 網站，請在他們的網站上找到連接按鈕。"
+  },
+  "connectedSites": {
+    "message": "連接的網站"
+  },
+  "connectedSitesDescription": {
+    "message": "$1 已連接到這些網站。他們可以查看您的賬戶地址。",
+    "description": "$1 是賬戶名"
+  },
+  "connectedSitesEmptyDescription": {
+    "message": "$1 還沒連接任何網站。",
+    "description": "$1 是賬戶名"
+  },
+  "connecting": {
+    "message": "連接中……"
+  },
+  "connectingTo": {
+    "message": "正在連接 $1"
+  },
+  "connectingToGoerli": {
+    "message": "正在連接 Goerli 測試網絡"
+  },
+  "connectingToKovan": {
+    "message": "正在連接到 Kovan 測試網絡"
+  },
+  "connectingToMainnet": {
+    "message": "正在連接到以太坊 Ethereum 主網"
+  },
+  "connectingToRinkeby": {
+    "message": "正在連接到 Rinkeby 測試網絡"
+  },
+  "connectingToRopsten": {
+    "message": "正在連接到 Ropsten 測試網絡"
+  },
+  "contactUs": {
+    "message": "聯系我們"
+  },
+  "contacts": {
+    "message": "聯系人"
+  },
+  "contactsSettingsDescription": {
+    "message": "添加、編輯、刪除和管理您的聯系人。"
+  },
+  "continue": {
+    "message": "繼續"
+  },
+  "continueToTransak": {
+    "message": "繼續 Transak"
+  },
+  "continueToWyre": {
+    "message": "繼續前往 Wyre"
+  },
+  "contract": {
+    "message": "合約"
+  },
+  "contractAddress": {
+    "message": "合約地址"
+  },
+  "contractAddressError": {
+    "message": "您正在將代幣發送到代幣的智能合約地址。這可能會導致這些代幣丟失。"
+  },
+  "contractDeployment": {
+    "message": "合約部署"
+  },
+  "contractInteraction": {
+    "message": "合約交互"
+  },
+  "copiedExclamation": {
+    "message": "已復製"
+  },
+  "copiedTransactionId": {
+    "message": "交易 ID 復製成功"
+  },
+  "copyAddress": {
+    "message": "復製地址"
+  },
+  "copyPrivateKey": {
+    "message": "這是您的私鑰（點擊復製）"
+  },
+  "copyToClipboard": {
+    "message": "復製到剪貼板"
+  },
+  "copyTransactionId": {
+    "message": "復製交易 ID"
+  },
+  "create": {
+    "message": "創建"
+  },
+  "createAWallet": {
+    "message": "創建錢包"
+  },
+  "createAccount": {
+    "message": "創建賬戶"
+  },
+  "createPassword": {
+    "message": "創建密碼"
+  },
+  "currencyConversion": {
+    "message": "貨幣轉換"
+  },
+  "currencySymbol": {
+    "message": "貨幣符號"
+  },
+  "currencySymbolDefinition": {
+    "message": "為該網絡的貨幣顯示的代碼."
+  },
+  "currentAccountNotConnected": {
+    "message": "您的當前賬戶沒有連接"
+  },
+  "currentExtension": {
+    "message": "當前擴展頁"
+  },
+  "currentLanguage": {
+    "message": "當前語言"
+  },
+  "customGas": {
+    "message": "自定義燃料"
+  },
+  "customGasSubTitle": {
+    "message": "提升費用可能會縮短處理時間，但不保證絕對有效。"
+  },
+  "customNetwork": {
+    "message": "自定義網絡"
+  },
+  "customRPC": {
+    "message": "自定義 RPC"
+  },
+  "customSpendLimit": {
+    "message": "自定義消費限額"
+  },
+  "customToken": {
+    "message": "自定義代幣"
+  },
+  "data": {
+    "message": "數據"
+  },
+  "dataBackupFoundInfo": {
+    "message": "您的部分賬戶數據已在之前安裝的 FormLess 時備份。其中可能包括您的設置、聯系人和代幣。您現在想恢復這些數據嗎？"
+  },
+  "decimal": {
+    "message": "小數精度"
+  },
+  "decimalsMustZerotoTen": {
+    "message": "小數位最小為0並且不超過36位."
+  },
+  "decrypt": {
+    "message": "解密"
+  },
+  "decryptCopy": {
+    "message": "復製加密信息"
+  },
+  "decryptInlineError": {
+    "message": "無法解密此消息，錯誤：$1",
+    "description": "$1 是錯誤信息"
+  },
+  "decryptMessageNotice": {
+    "message": "$1 希望閱讀此信息來完成您的操作。",
+    "description": "$1 是 web3 站點名稱"
+  },
+  "decryptMetamask": {
+    "message": "解密信息"
+  },
+  "decryptRequest": {
+    "message": "解密請求"
+  },
+  "defaultNetwork": {
+    "message": "默認以太坊（Ether）交易網絡為主網。"
+  },
+  "delete": {
+    "message": "刪除"
+  },
+  "deleteAccount": {
+    "message": "刪除賬戶"
+  },
+  "deleteNetwork": {
+    "message": "刪除網絡？"
+  },
+  "deleteNetworkDescription": {
+    "message": "是否確認要刪除該網絡？"
+  },
+  "depositEther": {
+    "message": "存入 Ether"
+  },
+  "details": {
+    "message": "詳情"
+  },
+  "directDepositEther": {
+    "message": "直接存入 Ether"
+  },
+  "directDepositEtherExplainer": {
+    "message": "如果您已經有了一些 Ether，最快捷的方法就是直接向新錢包存入 Ether。"
+  },
+  "disconnect": {
+    "message": "斷開"
+  },
+  "disconnectAllAccounts": {
+    "message": "斷開所有賬戶"
+  },
+  "disconnectAllAccountsConfirmationDescription": {
+    "message": "您確定要斷開連接嗎？您可能會失去網站功能。"
+  },
+  "disconnectPrompt": {
+    "message": "斷開 $1"
+  },
+  "disconnectThisAccount": {
+    "message": "斷開此賬戶的連接"
+  },
+  "dismiss": {
+    "message": "關閉"
+  },
+  "dismissReminderDescriptionField": {
+    "message": "打開此選項可關閉恢復短語備份提醒消息。 我們強烈建議您備份您的秘密恢復短語以避免資金損失"
+  },
+  "dismissReminderField": {
+    "message": "取消恢復助記詞備份提醒"
+  },
+  "domain": {
+    "message": "域名"
+  },
+  "done": {
+    "message": "完成"
+  },
+  "dontShowThisAgain": {
+    "message": "不再顯示"
+  },
+  "downloadGoogleChrome": {
+    "message": "下載 Google Chrome 瀏覽器"
+  },
+  "downloadSecretBackup": {
+    "message": "下載賬戶助記詞，並將其安全保存在外部加密硬盤或存儲介質上。"
+  },
+  "downloadStateLogs": {
+    "message": "下載狀態日誌"
+  },
+  "dropped": {
+    "message": "丟棄"
+  },
+  "edit": {
+    "message": "編輯"
+  },
+  "editContact": {
+    "message": "編輯聯系人"
+  },
+  "editNonceField": {
+    "message": "編輯 Nonce"
+  },
+  "editNonceMessage": {
+    "message": "這是一個高級功能，請謹慎使用。"
+  },
+  "editPermission": {
+    "message": "編輯權限"
+  },
+  "encryptionPublicKeyNotice": {
+    "message": "$1 希望得到您的加密公鑰。同意後該網站將可以想您發送加密信息。",
+    "description": "$1是 web3 站點名稱"
+  },
+  "encryptionPublicKeyRequest": {
+    "message": "申請加密公鑰"
+  },
+  "endOfFlowMessage1": {
+    "message": "您通過了測試—— 保管好您的賬戶助記詞，這是您的責任!"
+  },
+  "endOfFlowMessage10": {
+    "message": "全部完成"
+  },
+  "endOfFlowMessage2": {
+    "message": "安全保存技巧"
+  },
+  "endOfFlowMessage3": {
+    "message": "在多處保存備份數據。"
+  },
+  "endOfFlowMessage4": {
+    "message": "不向任何任何人分享該賬戶助記詞。"
+  },
+  "endOfFlowMessage5": {
+    "message": "謹防網絡釣魚！FormLess 絕不會主動要求您提供個人賬戶助記詞。"
+  },
+  "endOfFlowMessage6": {
+    "message": "如果您需要再次備份賬戶助記詞，請通過設置 -> 安全選項完成該操作。"
+  },
+  "endOfFlowMessage7": {
+    "message": "如果您有任何疑問或看到可疑內容，請聯系我們的支持 $1.",
+    "description": "$1 是一個可點擊的鏈接，其文本由「此處」鍵定義。 該鏈接將打開一個表單，用戶可以在其中提交支持票."
+  },
+  "endOfFlowMessage8": {
+    "message": "FormLess 無法恢復您的賬戶助記詞。"
+  },
+  "endOfFlowMessage9": {
+    "message": "了解詳情。"
+  },
+  "endpointReturnedDifferentChainId": {
+    "message": "RPC 端點使用鏈不同的鏈 ID: $1",
+    "description": "$1是來自 RPC 端點的 eth_chainId 的返回值"
+  },
+  "ensIllegalCharacter": {
+    "message": "ENS 的非法字符."
+  },
+  "ensNotFoundOnCurrentNetwork": {
+    "message": "未在當前網絡找到 ENS 名稱。請嘗試切換至主以太坊網絡。"
+  },
+  "ensNotSupportedOnNetwork": {
+    "message": "此網絡不支持 ENS 服務"
+  },
+  "ensRegistrationError": {
+    "message": "ENS 名稱登記錯誤"
+  },
+  "ensUnknownError": {
+    "message": "ENS Lookup failed."
+  },
+  "enterAnAlias": {
+    "message": "輸入別名"
+  },
+  "enterMaxSpendLimit": {
+    "message": "輸入最高消費額度"
+  },
+  "enterPassword": {
+    "message": "輸入密碼"
+  },
+  "enterPasswordContinue": {
+    "message": "輸入密碼以繼續"
+  },
+  "errorCode": {
+    "message": "代碼：$1",
+    "description": "出於調試目的顯示錯誤代碼。 $1 是錯誤代碼"
+  },
+  "errorDetails": {
+    "message": "錯誤詳情",
+    "description": "顯示錯誤詳細信息以用於調試的可折疊部分的標題"
+  },
+  "errorMessage": {
+    "message": "信息：$1",
+    "description": "出於調試目的顯示錯誤消息。 $1 是錯誤信息"
+  },
+  "errorName": {
+    "message": "代碼：$1",
+    "description": "出於調試目的顯示的錯誤名稱。 $1 是錯誤名稱"
+  },
+  "errorPageMessage": {
+    "message": "請通過重新加載頁面重試，或通過點擊 $1 聯系支持人員 .",
+    "description": "在全屏或通知 UI 的通用錯誤頁面上顯示的消息，$1 是一個可點擊的鏈接，其文本由「此處」鍵定義。 該鏈接將打開一個表單，用戶可以在其中提交支持票."
+  },
+  "errorPagePopupMessage": {
+    "message": "通過關閉並重新打開彈出窗口重試，或聯系支持 $1.",
+    "description": "消息顯示在彈出 UI 的通用錯誤頁面上，$1 是一個可點擊的鏈接，其文本由「此處」鍵定義。 該鏈接將打開一個表單，用戶可以在其中提交支持票."
+  },
+  "errorPageTitle": {
+    "message": "FormLess 遇到了一個錯誤",
+    "description": "通用錯誤頁面的標題"
+  },
+  "errorStack": {
+    "message": "棧：",
+    "description": "錯誤stack的標題，顯示用於調試目的"
+  },
+  "estimatedProcessingTimes": {
+    "message": "預計處理時間"
+  },
+  "ethGasPriceFetchWarning": {
+    "message": "由於目前主要的gas估算服務不可用，因此提供了備用gas價格."
+  },
+  "eth_accounts": {
+    "message": "查看您允許的賬戶的地址（必填）",
+    "description": "eth_accounts 權限的描述"
+  },
+  "ethereumPublicAddress": {
+    "message": "以太坊 Ethereum 公開地址"
+  },
+  "etherscan": {
+    "message": "Etherscan（以太坊瀏覽器）"
+  },
+  "etherscanView": {
+    "message": "在 Etherscan（以太坊瀏覽器）上查看賬戶"
+  },
+  "expandView": {
+    "message": "展開視圖"
+  },
+  "exportAccountWords": {
+    "message": "導出助記詞"
+  },
+  "exportPrivateKey": {
+    "message": "導出私鑰"
+  },
+  "externalExtension": {
+    "message": "外部擴展"
+  },
+  "extraApprovalGas": {
+    "message": "+$1 批準燃料",
+    "description": "表示用戶必須支付的額外 gas 金額，除了一些其他顯示的金額。 $1 是十進製的gas"
+  },
+  "failed": {
+    "message": "失敗"
+  },
+  "failedToFetchChainId": {
+    "message": "無法獲取鏈 IC，您的 RPC URL 地址是正確的麽？"
+  },
+  "failureMessage": {
+    "message": "出了點問題，我們無法完成這個操作。"
+  },
+  "fast": {
+    "message": "快"
+  },
+  "fastest": {
+    "message": "最快"
+  },
+  "feeAssociatedRequest": {
+    "message": "此請求需要支付一定的費用。"
+  },
+  "fiat": {
+    "message": "FIAT",
+    "description": "交換類型"
+  },
+  "fiatRecharge": {
+    "message": "法幣充值"
+  },
+  "fileImportFail": {
+    "message": "文件導入失敗？ 點擊這裏！",
+    "description": "幫助用戶從 JSON 文件導入他們的帳戶"
+  },
+  "forbiddenIpfsGateway": {
+    "message": "禁用的 IPFS 網關：請指定一個 CID 網關"
+  },
+  "forgetDevice": {
+    "message": "忘記此設備"
+  },
+  "from": {
+    "message": "從"
+  },
+  "fromAddress": {
+    "message": "從：$1",
+    "description": "$1 是包含在 From 標簽中的地址。 它通常首先使用縮短地址縮短"
+  },
+  "functionApprove": {
+    "message": "功能：同意"
+  },
+  "functionType": {
+    "message": "Function Type"
+  },
+  "gasFee": {
+    "message": "Gas 費用"
+  },
+  "gasFeeEstimate": {
+    "message": "預估"
+  },
+  "gasLimit": {
+    "message": "燃料限製"
+  },
+  "gasLimitInfoTooltipContent": {
+    "message": "燃料限製是指您願意花費的最燃料量單位。"
+  },
+  "gasLimitTooLow": {
+    "message": "燃料限製至少要 21000"
+  },
+  "gasLimitTooLowWithDynamicFee": {
+    "message": "燃料限製至少要 $1",
+    "description": "$1 是自定義gas限製，以十進製表示。"
+  },
+  "gasPrice": {
+    "message": "燃料價格（GWEI）"
+  },
+  "gasPriceExcessive": {
+    "message": "您的gas費設置過高.考慮降低金額."
+  },
+  "gasPriceExcessiveInput": {
+    "message": "Gas Price Is Excessive"
+  },
+  "gasPriceExtremelyLow": {
+    "message": "燃料價格極低"
+  },
+  "gasPriceFetchFailed": {
+    "message": "由於網絡錯誤,gas 價格估算失敗."
+  },
+  "gasPriceInfoTooltipContent": {
+    "message": "燃料價格規定了您願意為每單位燃料支付的 Ether 數量。"
+  },
+  "gasUsed": {
+    "message": "燃料使用"
+  },
+  "gdprMessage": {
+    "message": "這些數據是匯總的，因此，根據《GDPR 通用數據保護條例》(EU)2016/679，這些數據是匿名的。有關我們隱私慣例的更多信息，請參見我們的 $1。",
+    "description": "指的是 gdprMessagePrivacyPolicy 消息，其翻譯旨在專門在 gdprMessage 的上下文中使用"
+  },
+  "gdprMessagePrivacyPolicy": {
+    "message": "隱私政策",
+    "description": "此翻譯旨在專門用作 gdprMessage 翻譯中 $1 的替代品"
+  },
+  "general": {
+    "message": "通用"
+  },
+  "generalSettingsDescription": {
+    "message": "貨幣轉換、主要價格單位、語言和 Blockies Identicon 圖標頭像"
+  },
+  "getEther": {
+    "message": "獲取 Ether"
+  },
+  "getEtherFromFaucet": {
+    "message": "從水管獲取 $1 網絡的 Ether",
+    "description": "顯示Ether faucet的網絡名稱"
+  },
+  "getStarted": {
+    "message": "開始使用"
+  },
+  "goTrans": {
+    "message": "去交易"
+  },
+  "goerli": {
+    "message": "Goerli 測試網絡"
+  },
+  "happyToSeeYou": {
+    "message": "我們很高興見到您。"
+  },
+  "hardware": {
+    "message": "硬件"
+  },
+  "hardwareWalletConnected": {
+    "message": "已連接的硬件錢包"
+  },
+  "hardwareWalletLegacyDescription": {
+    "message": "(legacy)",
+    "description": "表示新路徑的文本"
+  },
+  "hardwareWalletSupportLinkConversion": {
+    "message": "click here"
+  },
+  "hardwareWallets": {
+    "message": "連接硬件錢包"
+  },
+  "hardwareWalletsMsg": {
+    "message": "選擇希望用於 FormLess 的硬件錢包"
+  },
+  "here": {
+    "message": "這裏",
+    "description": "就像在-單擊此處-了解更多信息（與TroubleTokenBalances 一起使用)"
+  },
+  "hexData": {
+    "message": "十六進製數據"
+  },
+  "hide": {
+    "message": "隱藏"
+  },
+  "hideTokenPrompt": {
+    "message": "隱藏代幣？"
+  },
+  "hideTokenSymbol": {
+    "message": "隱藏 $1",
+    "description": "$1 是代幣的符號 (e.g. 'DAI')"
+  },
+  "hideZeroBalanceTokens": {
+    "message": "Hide Tokens Without Balance"
+  },
+  "history": {
+    "message": "歷史記錄"
+  },
+  "import": {
+    "message": "導入",
+    "description": "用於從選定文件導入帳戶的按鈕"
+  },
+  "importAccount": {
+    "message": "導入賬戶"
+  },
+  "importAccountLinkText": {
+    "message": "忘記密碼？重置錢包"
+  },
+  "importAccountMsg": {
+    "message": "導入的賬戶將不會與最初創建的 FormLess 賬戶助記詞相關聯。了解更多有關導入賬戶的信息 。"
+  },
+  "importAccountSeedPhrase": {
+    "message": "使用賬戶助記詞導入賬戶"
+  },
+  "importAccountText": {
+    "message": "or $1",
+    "description": "$1 將來自 `importAccountLinkText` 的文本表示為鏈接"
+  },
+  "importAccountWords": {
+    "message": "導入助記詞"
+  },
+  "importKey": {
+    "message": "導入私鑰"
+  },
+  "importTokenQuestion": {
+    "message": "Import token?"
+  },
+  "importTokenWarning": {
+    "message": "任何人都可以創建任何名稱的代幣,包括現有代幣的偽造版本.添加和交易風險自負!"
+  },
+  "importWallet": {
+    "message": "導入錢包"
+  },
+  "importYourExisting": {
+    "message": "使用秘密恢復短語導入您現有的錢包"
+  },
+  "imported": {
+    "message": "已導入",
+    "description": "狀態顯示帳戶已完全加載到密鑰環中"
+  },
+  "infuraBlockedNotification": {
+    "message": "FormLess 無法連接到區塊鏈主機.查看可能的原因 $1.",
+    "description": "$1 是一個可點擊的鏈接，帶有由「here」鍵定義的文本"
+  },
+  "initialTransactionConfirmed": {
+    "message": "您的初始交易已通過網絡確認。請點擊「確定」返回。"
+  },
+  "inputAddress": {
+    "message": "請輸入地址"
+  },
+  "inputNumber": {
+    "message": "請輸入數量"
+  },
+  "insufficientBalance": {
+    "message": "余額不足。"
+  },
+  "insufficientFunds": {
+    "message": "余額不足。"
+  },
+  "insufficientTokens": {
+    "message": "代幣余額不足。"
+  },
+  "invalidAddress": {
+    "message": "無效地址"
+  },
+  "invalidAddressRecipient": {
+    "message": "接收方地址無效"
+  },
+  "invalidAddressRecipientNotEthNetwork": {
+    "message": "非 ETH 網絡，請使用小寫"
+  },
+  "invalidBlockExplorerURL": {
+    "message": "無效的區塊瀏覽器 URL"
+  },
+  "invalidChainIdTooBig": {
+    "message": "無效的鏈 ID，該鏈 ID 數字過大。"
+  },
+  "invalidCustomNetworkAlertContent1": {
+    "message": "需要重新輸入自定義網絡'$1'的鏈 ID。",
+    "description": "$1 是網絡的名稱/標識符."
+  },
+  "invalidCustomNetworkAlertContent2": {
+    "message": "為了保護您免受惡意或有問題的網絡提供商的侵害，現在所有的自定義網絡都需要提供鏈 ID。"
+  },
+  "invalidCustomNetworkAlertContent3": {
+    "message": "進入設置 > 網絡並輸入鏈 ID。您可以通過 $1 查找常用的鏈 ID。",
+    "description": "$1 是 https://chainid.network 的鏈接"
+  },
+  "invalidCustomNetworkAlertTitle": {
+    "message": "無效的自定義網絡"
+  },
+  "invalidHexNumber": {
+    "message": "無效的十六進製數。"
+  },
+  "invalidHexNumberLeadingZeros": {
+    "message": "無效的十六進製數。去除任何開頭的零。"
+  },
+  "invalidIpfsGateway": {
+    "message": "無效的 IPFS 網關。該值必須是一個有效的 URL"
+  },
+  "invalidNumber": {
+    "message": "無效的數字。輸入一個數字或『0x』開頭的十六進製數。"
+  },
+  "invalidNumberLeadingZeros": {
+    "message": "無效的數字。去除任何開頭的零。"
+  },
+  "invalidRPC": {
+    "message": "無效 RPC URL"
+  },
+  "invalidSeedPhrase": {
+    "message": "無效的賬戶助記詞"
+  },
+  "ipfsGateway": {
+    "message": "IPFS 網關"
+  },
+  "ipfsGatewayDescription": {
+    "message": "輸入用於 ENS 內容解析的 IPFS CID 網關的 URL。"
+  },
+  "jsonFile": {
+    "message": "JSON 文件",
+    "description": "導入帳戶的格式"
+  },
+  "knownAddressRecipient": {
+    "message": "已知接收方地址。"
+  },
+  "knownTokenWarning": {
+    "message": "此操作將編輯已經在您的錢包中列出的代幣，有肯能被用來欺騙您。只有確定要更改這些代幣的內容時，才通過此操作。"
+  },
+  "kovan": {
+    "message": "Kovan 測試網絡"
+  },
+  "lastConnected": {
+    "message": "最後連接"
+  },
+  "learnMore": {
+    "message": "查看更多"
+  },
+  "ledgerAccountRestriction": {
+    "message": "在添加新的賬戶之前，需要使用您的最後一個賬戶。"
+  },
+  "ledgerLiveAdvancedSetting": {
+    "message": "使用Ledger Live"
+  },
+  "ledgerLiveAdvancedSettingDescription": {
+    "message": "新的 Ledger Live bridge可讓您更輕松地使用 Ledger.僅在 Chrome 中可用."
+  },
+  "ledgerLiveApp": {
+    "message": "Ledger Live App"
+  },
+  "ledgerLocked": {
+    "message": "無法連接到 Ledger 設備.請確保您的設備已解鎖並已打開以太坊應用程序."
+  },
+  "ledgerTimeout": {
+    "message": "Ledger Live 響應時間過長或連接超時.確保 Ledger Live 應用程序已打開且您的設備已解鎖."
+  },
+  "letsGoSetUp": {
+    "message": "第一次，立即開始設置！"
+  },
+  "likeToAddTokens": {
+    "message": "您想添加這些代幣嗎？"
+  },
+  "links": {
+    "message": "鏈接"
+  },
+  "loadMore": {
+    "message": "加載更多"
+  },
+  "loading": {
+    "message": "加載中……"
+  },
+  "loadingTokens": {
+    "message": "加載代幣中……"
+  },
+  "localhost": {
+    "message": "Localhost 8545"
+  },
+  "lock": {
+    "message": "鎖定"
+  },
+  "lockTimeTooGreat": {
+    "message": "鎖定時間過長"
+  },
+  "mainnet": {
+    "message": "以太坊 Ethereum 主網絡"
+  },
+  "makeAnotherSwap": {
+    "message": "創建一個新的 swap"
+  },
+  "matic": {
+    "message": "Polygon PoS (Matic) 主網絡"
+  },
+  "max": {
+    "message": "最大"
+  },
+  "maxFee": {
+    "message": "最大 fee"
+  },
+  "maxPriorityFee": {
+    "message": "最大優先級 fee"
+  },
+  "memo": {
+    "message": "備忘"
+  },
+  "memorizePhrase": {
+    "message": "記住該賬戶助記詞。"
+  },
+  "message": {
+    "message": "消息"
+  },
+  "metaMaskConnectStatusParagraphOne": {
+    "message": "現在您可在 FormLess 中對賬戶連接進行更多的控製。"
+  },
+  "metaMaskConnectStatusParagraphThree": {
+    "message": "點擊管理連接的賬戶。"
+  },
+  "metaMaskConnectStatusParagraphTwo": {
+    "message": "連接狀態按鈕顯示所訪問的網站是否與您當前選擇的賬戶連接。"
+  },
+  "metamaskDescription": {
+    "message": "將您與 Ethereum 和去中心化網絡連接起來。"
+  },
+  "metamaskSwapsOfflineDescription": {
+    "message": "FormLess Swaps 正在進行維護。請稍後訪問。"
+  },
+  "metamaskVersion": {
+    "message": "FormLess 版本"
+  },
+  "metametricsCommitmentsAllowOptOut": {
+    "message": "始終允許您通過設置選擇退出"
+  },
+  "metametricsCommitmentsBoldNever": {
+    "message": "從不",
+    "description": "此字符串與某些承諾分開本地化，以便我們可以將其加粗"
+  },
+  "metametricsCommitmentsIntro": {
+    "message": "FormLess……"
+  },
+  "metametricsCommitmentsNeverCollectIP": {
+    "message": "$1收集您的完整IP地址",
+    "description": "The $1 is the bolded word 'Never', from 'metametricsCommitmentsBoldNever'"
+  },
+  "metametricsCommitmentsNeverCollectKeysEtc": {
+    "message": "$1收集密鑰、地址、交易記錄、余額、哈希或任何個人信息",
+    "description": "The $1 is the bolded word 'Never', from 'metametricsCommitmentsBoldNever'"
+  },
+  "metametricsCommitmentsNeverSellDataForProfit": {
+    "message": "$1為利益而出售您的數據，永遠不會！",
+    "description": "The $1 is the bolded word 'Never', from 'metametricsCommitmentsBoldNever'"
+  },
+  "metametricsCommitmentsSendAnonymizedEvents": {
+    "message": "發送匿名的點擊和頁面瀏覽事件信息"
+  },
+  "metametricsHelpImproveMetaMask": {
+    "message": "幫助我們讓 FormLess 變得更好"
+  },
+  "metametricsOptInDescription": {
+    "message": "FormLess 希望收集使用數據，以更好地了解我們的用戶如何與擴展進行互動。這些數據將被用於持續改進我們產品和 Ethereum 生態系統的可用性和用戶體驗。"
+  },
+  "mismatchedChain": {
+    "message": "此鏈 ID 的網絡詳細信息與我們的記錄不符。 我們建議您在繼續之前支付$1.",
+    "description": "$1 是一個可點擊的鏈接，其文本由 'mismatchedChainLinkText' 鍵定義"
+  },
+  "mismatchedChainLinkText": {
+    "message": "驗證網絡詳細信息",
+    "description": "用作「mismatchedChain」鍵的鏈接文本。 此文本將嵌入該鍵的翻譯中."
+  },
+  "mobileSyncText": {
+    "message": "請輸入密碼確認個人身份！"
+  },
+  "mustSelectOne": {
+    "message": "至少選擇 1 種代幣。"
+  },
+  "myAccounts": {
+    "message": "我的賬戶"
+  },
+  "name": {
+    "message": "Name"
+  },
+  "nativeNetworks": {
+    "message": "所在網絡"
+  },
+  "needEtherInWallet": {
+    "message": "使用 FormLess 與分布式應用交互，需要您的錢包裏需要有 Ether。"
+  },
+  "needHelp": {
+    "message": "需要幫忙嗎?聯系 $1",
+    "description": "$1 代表 `needHelpLinkText`，幫助鏈接中的文本"
+  },
+  "needHelpLinkText": {
+    "message": "FormLess 支持"
+  },
+  "needImportFile": {
+    "message": "必須選擇一個文件來導入。",
+    "description": "用戶是一個重要的帳戶，需要添加一個文件繼續"
+  },
+  "negativeETH": {
+    "message": "不能發負值的 ETH。"
+  },
+  "networkDetails": {
+    "message": "Network Details"
+  },
+  "networkName": {
+    "message": "網絡名稱"
+  },
+  "networkNameBSC": {
+    "message": "BSC"
+  },
+  "networkNameDefinition": {
+    "message": "與此網絡相關聯的名稱。"
+  },
+  "networkNameEthereum": {
+    "message": "Ethereum"
+  },
+  "networkNameTestnet": {
+    "message": "Testnet"
+  },
+  "networkSettingsChainIdDescription": {
+    "message": "鏈 ID 用於簽署交易。它必須與網絡返回的鏈 ID 相匹配。您可以輸入十進製或'0x'前綴的十六進製數字，但我們將以十進製顯示。"
+  },
+  "networkSettingsDescription": {
+    "message": "添加和編輯自定義 RPC 網絡"
+  },
+  "networkURL": {
+    "message": "網絡URL"
+  },
+  "networkURLDefinition": {
+    "message": "用於訪問該網絡的URL。"
+  },
+  "networks": {
+    "message": "網絡"
+  },
+  "nevermind": {
+    "message": "無所謂"
+  },
+  "newAccount": {
+    "message": "新賬戶"
+  },
+  "newAccountDetectedDialogMessage": {
+    "message": "檢測到新地址！點擊添加至地址簿。"
+  },
+  "newAccountNumberName": {
+    "message": "賬戶 $1",
+    "description": "要在創建帳戶屏幕上創建的下一個帳戶的默認名稱"
+  },
+  "newContact": {
+    "message": "新聯系人"
+  },
+  "newContract": {
+    "message": "新合約"
+  },
+  "newNetwork": {
+    "message": "新增網絡"
+  },
+  "newPassword": {
+    "message": "新密碼（至少 8 個字符）"
+  },
+  "newToMetaMask": {
+    "message": "第一次使用 FormLess？"
+  },
+  "newTotal": {
+    "message": "新總額"
+  },
+  "newTransactionFee": {
+    "message": "新交易費用"
+  },
+  "next": {
+    "message": "下一步"
+  },
+  "nextNonceWarning": {
+    "message": "Nonce 高於建議的 nonce 值 $1",
+    "description": "根據 FormLess 的內部邏輯的下一個 nonce"
+  },
+  "nftAsset": {
+    "message": "NFT資產"
+  },
+  "noAccountsFound": {
+    "message": "沒找到查詢的賬戶"
+  },
+  "noAddressForName": {
+    "message": "這個名字還沒有設置地址。"
+  },
+  "noAlreadyHaveSeed": {
+    "message": "不，我已經有一個賬戶助記詞了。"
+  },
+  "noConversionRateAvailable": {
+    "message": "無可用轉換率"
+  },
+  "noThanks": {
+    "message": "不，謝謝"
+  },
+  "noTransactions": {
+    "message": "沒有交易"
+  },
+  "noWebcamFound": {
+    "message": "未找到您的電腦攝像頭。請重試。"
+  },
+  "noWebcamFoundTitle": {
+    "message": "未找到攝像頭"
+  },
+  "nonce": {
+    "message": "Nonce"
+  },
+  "nonceField": {
+    "message": "自定義交易 nonce"
+  },
+  "nonceFieldDescription": {
+    "message": "開啟此功能可以改變確認屏幕上的 nonce（交易號）。此為高級功能，請謹慎使用。"
+  },
+  "nonceFieldHeading": {
+    "message": "自定義 Nonce"
+  },
+  "notCurrentAccount": {
+    "message": "這是正確的賬戶嗎？這與您錢包中當前選擇的賬戶不同。"
+  },
+  "notEnoughGas": {
+    "message": "燃料不足"
+  },
+  "notifications1Description": {
+    "message": "FormLess Mobile 用戶現在可以在他們的移動錢包中交換代幣.掃描二維碼獲取手機APP.開始兌換.",
+    "description": "'查看最新消息'彈出窗口中的通知說明.描述移動功能上的交換."
+  },
+  "notifications1Title": {
+    "message": "在移動設備上交換就在這裏!",
+    "description": "'查看最新消息'彈出窗口中的通知標題。 告訴用戶他們現在可以在移動設備上使用 FormLess Swaps."
+  },
+  "notifications3ActionText": {
+    "message": "閱讀個更多",
+    "description": "'保持安全'通知的按鈕或鏈接上的'號召性用語'. 點擊後，用戶將被帶到無形支持網站上有關安全性的頁面e."
+  },
+  "notifications3Description": {
+    "message": "及時了解 FormLess 安全最佳實踐.並從 FormLess 官方支持獲取最新的安全提示.",
+    "description": "'查看最新消息'彈出窗口中的通知說明。 描述他們可以從鏈接的支持頁面獲得的安全信息"
+  },
+  "notifications3Title": {
+    "message": "保持安全",
+    "description": "'查看最新消息'彈出窗口中的通知標題。 鼓勵用戶考慮安全性."
+  },
+  "notifications4ActionText": {
+    "message": "開始交換",
+    "description": "'Swap on Binance Smart Chain！'按鈕或鏈接上的'號召性用語'！ 通知。 點擊後，用戶將被帶到一個頁面，然後可以在 Binance Smart Chain 上交換代幣."
+  },
+  "notifications4Description": {
+    "message": "在您的錢包中獲得最優惠的代幣交換價格.FormLess 現在將您連接到幣安智能鏈上的多個去中心化交易所聚合器和專業做市商.",
+    "description": "'查看最新消息'彈出窗口中的通知說明."
+  },
+  "notifications4Title": {
+    "message": "Swap on Binance Smart Chain",
+    "description": "'查看最新消息'彈出窗口中的通知標題。 鼓勵用戶在幣安智能鏈上進行互換."
+  },
+  "notifications5Description": {
+    "message": "您的「種子短語」現在稱為「秘密恢復短語」.",
+    "description": "'查看最新消息'彈出窗口中的通知說明。 描述種子短語措辭更新."
+  },
+  "notifications6DescriptionOne": {
+    "message": "從 Chrome 91 版本開始，啟用我們的分類帳支持 (U2F) 的 API 不再支持硬件錢包。 FormLess 實現了新的 Ledger Live 支持，允許您通過 Ledger Live 桌面應用程序繼續連接到您的 Ledger 設備.",
+    "description": "'查看最新消息'彈出窗口中的通知說明。 描述 Ledger 支持更新。"
+  },
+  "notifications6DescriptionThree": {
+    "message": "在 FormLess 中與您的 Ledger 帳戶交互時，將打開一個新選項卡，您將被要求打開 Ledger Live 應用程序。 應用程序打開後，系統會要求您允許 WebSocket 連接到您的 FormLess 帳戶.就這樣！",
+    "description": "'查看最新消息'彈出窗口中的通知說明。 描述 Ledger 支持更新."
+  },
+  "notifications6DescriptionTwo": {
+    "message": "您可以通過單擊設置 > 高級 > 使用 Ledger Live 來啟用 Ledger Live 支持.",
+    "description": "'查看最新消息'彈出窗口中的通知說明。 描述 Ledger 支持更新."
+  },
+  "notifications6Title": {
+    "message": "Chrome 用戶的分類帳支持更新",
+    "description": "'查看最新消息'彈出窗口中的通知標題。 讓用戶了解 Ledger 支持更新"
+  },
+  "number": {
+    "message": "數量"
+  },
+  "numberAsset": {
+    "message": "數字資產"
+  },
+  "numberError": {
+    "message": "數量錯誤"
+  },
+  "ofTextNofM": {
+    "message": "/"
+  },
+  "off": {
+    "message": "關"
+  },
+  "offlineForMaintenance": {
+    "message": "脫機維護"
+  },
+  "ok": {
+    "message": "確定"
+  },
+  "on": {
+    "message": "啟用"
+  },
+  "onboardingReturnNotice": {
+    "message": "「$1」會關閉此標簽，直接回到 $2",
+    "description": "將用戶返回到啟動登錄的站點"
+  },
+  "onlyAddTrustedNetworks": {
+    "message": "惡意網絡提供商可能會謊報區塊鏈的狀態並記錄您的網絡活動。 只添加您信任的自定義網絡."
+  },
+  "onlyAvailableOnMainnet": {
+    "message": "僅在主網（mainnet）上提供"
+  },
+  "onlyConnectTrust": {
+    "message": "請核實網絡信息，只連接您信任的網站。"
+  },
+  "optional": {
+    "message": "Optional"
+  },
+  "optionalBlockExplorerUrl": {
+    "message": "區塊瀏覽器 URL（選填）"
+  },
+  "optionalCurrencySymbol": {
+    "message": "符號（選填）"
+  },
+  "origin": {
+    "message": "來源"
+  },
+  "parameters": {
+    "message": "參數"
+  },
+  "participateInMetaMetrics": {
+    "message": "加入 MetaMetrics"
+  },
+  "participateInMetaMetricsDescription": {
+    "message": "加入 MetaMetrics ，幫助我們改善 FormLess 服務"
+  },
+  "password": {
+    "message": "密碼"
+  },
+  "passwordLengthLimit": {
+    "message": "請輸入8位以上字符"
+  },
+  "passwordNotLongEnough": {
+    "message": "密碼長度不足"
+  },
+  "passwordsDontMatch": {
+    "message": "密碼不匹配"
+  },
+  "pastePrivateKey": {
+    "message": "請粘貼您的私鑰:",
+    "description": "用於從私鑰導入帳戶"
+  },
+  "pending": {
+    "message": "待處理"
+  },
+  "permissionCheckedIconDescription": {
+    "message": "您已同意該權限"
+  },
+  "permissionUncheckedIconDescription": {
+    "message": "您還未同意該權限"
+  },
+  "permissions": {
+    "message": "權限"
+  },
+  "personalAddressDetected": {
+    "message": "檢測到個人地址。請輸入代幣合約地址。"
+  },
+  "plusXMore": {
+    "message": "+ $1",
+    "description": "$1是列表中一些額外但未顯示的項目 - 此消息將代替這些項目顯示"
+  },
+  "prev": {
+    "message": "上一個"
+  },
+  "primaryCurrencySetting": {
+    "message": "主要貨幣"
+  },
+  "primaryCurrencySettingDescription": {
+    "message": "請選擇「本地」，優先顯示當地貨幣鏈價值（如 ETH ）。選擇「貨幣」則優先以所選貨幣作為價值顯示單位。"
+  },
+  "priorityConnect": {
+    "message": "優先連接"
+  },
+  "priorityConnectDesc": {
+    "message": "當Dapp連接錢包時，優先連接 Formless"
+  },
+  "privacyMsg": {
+    "message": "隱私政策"
+  },
+  "privateKey": {
+    "message": "私鑰",
+    "description": "選擇這種類型的文件以用於導入帳戶"
+  },
+  "privateKeyWarning": {
+    "message": "註意：永遠不要公開這個私鑰。任何擁有您的私鑰的人都可以竊取您帳戶中的任何資產。"
+  },
+  "privateNetwork": {
+    "message": "私有網絡"
+  },
+  "proposedApprovalLimit": {
+    "message": "擬議的審批上限"
+  },
+  "provide": {
+    "message": "提供"
+  },
+  "publicAddress": {
+    "message": "公共地址"
+  },
+  "queue": {
+    "message": "隊列"
+  },
+  "queued": {
+    "message": "隊列中"
+  },
+  "readdToken": {
+    "message": "之後您還可以通過帳戶選項菜單中的「添加代幣」來添加此代幣。"
+  },
+  "receive": {
+    "message": "接收"
+  },
+  "recents": {
+    "message": "最近記錄"
+  },
+  "recipientAddressPlaceholder": {
+    "message": "查找、公用地址 (0x) 或 ENS"
+  },
+  "recommendedGasLabel": {
+    "message": "Recommended"
+  },
+  "recoveryPhraseReminderBackupStart": {
+    "message": "從這開始"
+  },
+  "recoveryPhraseReminderConfirm": {
+    "message": "收到"
+  },
+  "recoveryPhraseReminderHasBackedUp": {
+    "message": "始終將您的秘密恢復短語保存在安全和秘密的地方"
+  },
+  "recoveryPhraseReminderHasNotBackedUp": {
+    "message": "需要再次備份您的秘密恢復短語?"
+  },
+  "recoveryPhraseReminderItemOne": {
+    "message": "永遠不要與任何人分享您的秘密恢復短語"
+  },
+  "recoveryPhraseReminderItemTwo": {
+    "message": "FormLess 團隊永遠不會要求您提供秘密恢復短語"
+  },
+  "recoveryPhraseReminderSubText": {
+    "message": "您的秘密恢復短語控製著您的所有帳戶."
+  },
+  "recoveryPhraseReminderTitle": {
+    "message": "保護您的資金"
+  },
+  "reject": {
+    "message": "拒絕"
+  },
+  "rejectAll": {
+    "message": "拒絕全部"
+  },
+  "rejectTxsDescription": {
+    "message": "您將批量拒絕 $1 筆交易。"
+  },
+  "rejectTxsN": {
+    "message": "拒絕 $1 筆交易"
+  },
+  "rejected": {
+    "message": "拒絕"
+  },
+  "remindMeLater": {
+    "message": "稍後提醒"
+  },
+  "remove": {
+    "message": "刪除"
+  },
+  "removeAccount": {
+    "message": "刪除賬戶"
+  },
+  "removeAccountDescription": {
+    "message": "該賬戶已從您的錢包中刪除。請在繼續後續操作前，確認您是否已擁有該導入賬戶的原始賬戶助記詞或賬戶密鑰。您可以通過賬戶下拉菜單再次導入或創建賬戶。"
+  },
+  "rename": {
+    "message": "重命名"
+  },
+  "requestsAwaitingAcknowledgement": {
+    "message": "待確認的請求"
+  },
+  "required": {
+    "message": "必填"
+  },
+  "reset": {
+    "message": "重置"
+  },
+  "resetAccount": {
+    "message": "重設賬戶"
+  },
+  "resetAccountDescription": {
+    "message": "重置賬戶將清除您的交易歷史記錄。這不會改變您賬戶中的余額，也不會要求您重新輸入賬戶助記詞。"
+  },
+  "restore": {
+    "message": "恢復"
+  },
+  "restoreAccountWithSeed": {
+    "message": "使用賬戶助記詞恢復您的賬戶"
+  },
+  "restoreWalletPreferences": {
+    "message": "已找到於 $1 的數據備份。您想恢復您的錢包設置嗎？",
+    "description": "$1是數據備份的日期"
+  },
+  "retryTransaction": {
+    "message": "重試交易"
+  },
+  "reusedTokenNameWarning": {
+    "message": "此處的一個代幣使用了與您關註的另一個代幣的相同符號，這可能會讓人感到困惑或欺騙。"
+  },
+  "revealSeedWords": {
+    "message": "顯示賬戶助記詞"
+  },
+  "revealSeedWordsDescription": {
+    "message": "如果您更換瀏覽器或計算機，則需要使用此賬戶助記詞訪問您的帳戶。請將它們保存在安全秘密的地方。"
+  },
+  "revealSeedWordsTitle": {
+    "message": "賬戶助記詞"
+  },
+  "revealSeedWordsWarning": {
+    "message": "該賬戶助記詞可以用來竊取您的所有帳戶"
+  },
+  "revealSeedWordsWarningTitle": {
+    "message": "不要對任何人展示此賬戶助記詞！"
+  },
+  "rinkeby": {
+    "message": "Rinkeby 測試網絡"
+  },
+  "ropsten": {
+    "message": "Ropsten 測試網絡"
+  },
+  "rpcUrl": {
+    "message": "新增 RPC URL"
+  },
+  "save": {
+    "message": "保存"
+  },
+  "saveAsCsvFile": {
+    "message": "保存為 CSV 文件"
+  },
+  "scanInstructions": {
+    "message": "將二維碼放在相機前"
+  },
+  "scanQrCode": {
+    "message": "掃描二維碼"
+  },
+  "scrollDown": {
+    "message": "向下滾動"
+  },
+  "search": {
+    "message": "搜索"
+  },
+  "searchAccounts": {
+    "message": "搜索賬戶"
+  },
+  "searchResults": {
+    "message": "搜索結果"
+  },
+  "searchTokens": {
+    "message": "搜索代幣"
+  },
+  "secretBackupPhrase": {
+    "message": "賬戶助記詞"
+  },
+  "secretBackupPhraseDescription": {
+    "message": "您的賬戶助記詞可以幫助您輕松備份和恢復個人賬戶。"
+  },
+  "secretBackupPhraseWarning": {
+    "message": "警告：切勿向他人透露您的賬戶助記詞。任何人一旦持有該賬戶助記詞，即可控製您的 Ether。"
+  },
+  "secretPhrase": {
+    "message": "在此處輸入您的秘密短語以恢復您的保險庫."
+  },
+  "securityAndPrivacy": {
+    "message": "安全與隱私"
+  },
+  "securitySettingsDescription": {
+    "message": "隱私設置和賬戶助記詞"
+  },
+  "seedPhraseIntroSidebarBulletFour": {
+    "message": "記下並存放在多個秘密地點."
+  },
+  "seedPhraseIntroSidebarBulletOne": {
+    "message": "保存在密碼管理器中"
+  },
+  "seedPhraseIntroSidebarBulletThree": {
+    "message": "存放在保險箱中"
+  },
+  "seedPhraseIntroSidebarBulletTwo": {
+    "message": "存放在銀行金庫."
+  },
+  "seedPhraseIntroSidebarCopyOne": {
+    "message": "您的恢復短語是您錢包和資金的「萬能鑰匙」."
+  },
+  "seedPhraseIntroSidebarCopyThree": {
+    "message": "如果有人詢問您的恢復短語，他們很可能是在試圖欺騙您."
+  },
+  "seedPhraseIntroSidebarCopyTwo": {
+    "message": "永遠，永遠不要分享您的恢復短語，即使使用 FormLess!"
+  },
+  "seedPhraseIntroSidebarTitleOne": {
+    "message": "什麽是恢復短語?"
+  },
+  "seedPhraseIntroSidebarTitleThree": {
+    "message": "我應該分享我的恢復短語嗎?"
+  },
+  "seedPhraseIntroSidebarTitleTwo": {
+    "message": "如何保存我的恢復短語?"
+  },
+  "seedPhraseIntroTitle": {
+    "message": "保護您的錢包"
+  },
+  "seedPhraseIntroTitleCopy": {
+    "message": "在開始之前，請觀看此短片以了解您的恢復短語以及如何保護您的錢包安全."
+  },
+  "seedPhrasePlaceholder": {
+    "message": "用空格分隔每個單詞"
+  },
+  "seedPhrasePlaceholderPaste": {
+    "message": "從剪貼板粘貼賬戶助記詞"
+  },
+  "seedPhraseReq": {
+    "message": "賬戶助記詞由 12、15、18、21 或 24 個單詞組成"
+  },
+  "selectAHigherGasFee": {
+    "message": "選擇更高的燃料費用，提高交易處理速度。*"
+  },
+  "selectAccounts": {
+    "message": "選擇賬戶"
+  },
+  "selectAll": {
+    "message": "全部選擇"
+  },
+  "selectAnAccount": {
+    "message": "選擇一個賬戶"
+  },
+  "selectAnAccountAlreadyConnected": {
+    "message": "此帳號已連接 FormLess"
+  },
+  "selectAnAccountHelp": {
+    "message": "選擇在 FormLess 中查看的賬戶"
+  },
+  "selectAnAccountHelpDirections": {
+    "message": "沒有看到您的帳戶?$1",
+    "description": "$1 表示 `hardwareWalletSupportLinkConversion` 本地化鍵"
+  },
+  "selectEachPhrase": {
+    "message": "請選擇每個單詞，以確保其正確性。"
+  },
+  "selectHdPath": {
+    "message": "選擇 HD 路徑"
+  },
+  "selectNetword": {
+    "message": "選擇網絡"
+  },
+  "selectPathHelp": {
+    "message": "如果下列賬戶中沒有您當前所持有的 Ledger 賬戶，請將路徑切換至「Legacy (MEW / MyCrypto)」"
+  },
+  "selectType": {
+    "message": "選擇類型"
+  },
+  "selectingAllWillAllow": {
+    "message": "選擇全部將允許本網站查看您當前的所有賬戶。確保您信任這個網站。"
+  },
+  "send": {
+    "message": "發送"
+  },
+  "sendAmount": {
+    "message": "發送數額"
+  },
+  "sendSpecifiedTokens": {
+    "message": "發送 $1",
+    "description": "指定代幣的符號"
+  },
+  "sendTokens": {
+    "message": "發送代幣"
+  },
+  "sentEther": {
+    "message": "發送 Ether"
+  },
+  "separateEachWord": {
+    "message": "用空格分隔每個單詞"
+  },
+  "settings": {
+    "message": "設置"
+  },
+  "showAdvancedGasInline": {
+    "message": "高級燃料控製"
+  },
+  "showAdvancedGasInlineDescription": {
+    "message": "在發送和確認界面顯示燃料價格和燃料限製設置選項。"
+  },
+  "showFiatConversionInTestnets": {
+    "message": "在 Testnets 上顯示兌換率"
+  },
+  "showFiatConversionInTestnetsDescription": {
+    "message": "請選擇該選項，在 Testnets 上顯示法定兌換率"
+  },
+  "showHexData": {
+    "message": "顯示十六進製數據"
+  },
+  "showHexDataDescription": {
+    "message": "請選擇該選項，在發送頁面顯示十六進製數據字域"
+  },
+  "showIncomingTransactions": {
+    "message": "顯示收到的交易"
+  },
+  "showIncomingTransactionsDescription": {
+    "message": "選擇該選項可使用 Etherscan（以太坊瀏覽器）（以太坊瀏覽器）在交易列表中顯示收到的交易。"
+  },
+  "showPermissions": {
+    "message": "顯示權限"
+  },
+  "showPrivateKeys": {
+    "message": "顯示私鑰"
+  },
+  "showSeedPhrase": {
+    "message": "顯示賬戶助記詞"
+  },
+  "sigRequest": {
+    "message": "請求簽名"
+  },
+  "sign": {
+    "message": "簽名"
+  },
+  "signNotice": {
+    "message": "簽署此消息可能會產生危險的副作用。 \n只從您完全信任的網站上簽名。 未來的版本將移除這種危險的方法。"
+  },
+  "signatureRequest": {
+    "message": "請求簽名"
+  },
+  "signatureRequest1": {
+    "message": "信息"
+  },
+  "signed": {
+    "message": "已簽名"
+  },
+  "slogan": {
+    "message": "為加密資產安全保駕護航"
+  },
+  "slow": {
+    "message": "慢"
+  },
+  "somethingWentWrong": {
+    "message": "糟糕！出問題了。"
+  },
+  "sortName": {
+    "message": "按名稱排序"
+  },
+  "sortValue": {
+    "message": "按凈值排序"
+  },
+  "speedUp": {
+    "message": "加速"
+  },
+  "speedUpCancellation": {
+    "message": "加速該取消操作"
+  },
+  "speedUpTransaction": {
+    "message": "加速該交易操作"
+  },
+  "spendLimitAmount": {
+    "message": "消費限額數量"
+  },
+  "spendLimitInsufficient": {
+    "message": "消費限額不足"
+  },
+  "spendLimitInvalid": {
+    "message": "消費限製無效，必須是正數。"
+  },
+  "spendLimitPermission": {
+    "message": "消費限製權限"
+  },
+  "spendLimitRequestedBy": {
+    "message": "消費限製申請來自 $1",
+    "description": "請求支出限製的網站的來源"
+  },
+  "spendLimitTooLarge": {
+    "message": "消費限製過大"
+  },
+  "stateLogError": {
+    "message": "檢索狀態日誌時出錯。"
+  },
+  "stateLogFileName": {
+    "message": "FormLess 狀態日誌"
+  },
+  "stateLogs": {
+    "message": "狀態日誌"
+  },
+  "stateLogsDescription": {
+    "message": "狀態日誌包含您的賬戶地址和已發送的交易。"
+  },
+  "statusConnected": {
+    "message": "已連接"
+  },
+  "statusNotConnected": {
+    "message": "未連接"
+  },
+  "step1LedgerWallet": {
+    "message": "Download Ledger app"
+  },
+  "step1LedgerWalletMsg": {
+    "message": "下載、設置並輸入您的密碼以解鎖 $1.",
+    "description": "$1 表示 `ledgerLiveApp` 本地化值"
+  },
+  "step1TrezorWallet": {
+    "message": "插入 Trezor 錢包"
+  },
+  "step1TrezorWalletMsg": {
+    "message": "將您的錢包直接連接到您的計算機。 有關使用硬件錢包設備的更多信息, $1",
+    "description": "$1 表示 `hardwareWalletSupportLinkConversion` 本地化鍵"
+  },
+  "step2LedgerWallet": {
+    "message": "插入 Ledger 錢包"
+  },
+  "step2LedgerWalletMsg": {
+    "message": "將您的錢包直接連接到您的計算機.解鎖您的分類帳並打開以太坊應用程序.有關使用硬件錢包設備的更多信息 $1.",
+    "description": "$1表示 `hardwareWalletSupportLinkConversion` 本地化鍵"
+  },
+  "storePhrase": {
+    "message": "通過如 1Password 等密碼管理工具保存該賬戶助記詞。"
+  },
+  "submit": {
+    "message": "提交"
+  },
+  "submitted": {
+    "message": "已提交"
+  },
+  "suggestedText": {
+    "message": "推薦"
+  },
+  "support": {
+    "message": "支持"
+  },
+  "supportCenter": {
+    "message": "訪問我們的支持中心"
+  },
+  "supportNetwork": {
+    "message": "支持的網絡"
+  },
+  "swap": {
+    "message": "兌換 Swap"
+  },
+  "swapAdvancedSlippageInfo": {
+    "message": "如果價格在您下單和確認之間發生變化，這就叫做「滑點」。如果滑點超過您的「最大滑點」設置，您的的兌換將自動取消。"
+  },
+  "swapAggregator": {
+    "message": "聚合商"
+  },
+  "swapAllowSwappingOf": {
+    "message": "允許交換$1",
+    "description": "向用戶顯示他們需要允許令牌在他們的硬件錢包上進行交換"
+  },
+  "swapAmountReceived": {
+    "message": "保證數額"
+  },
+  "swapAmountReceivedInfo": {
+    "message": "這是您將收到的最低數額。根據滑點值， 您可能會收到更多。"
+  },
+  "swapApproval": {
+    "message": "批準 $1 的兌換 ",
+    "description": "用於交易顯示列表中，用於描述對要交換的代幣進行批準調用的交易。$1 是已批準代幣的符號."
+  },
+  "swapApproveNeedMoreTokens": {
+    "message": "您還需 $1 $2 來完成這筆兌換",
+    "description": "告訴用戶他們需要多少給定的代幣進行特定的交換。 $1 是代幣數量，$2 是代幣符號."
+  },
+  "swapBetterQuoteAvailable": {
+    "message": "有一個可用的更優報價"
+  },
+  "swapBuildQuotePlaceHolderText": {
+    "message": "沒有匹配的代幣符合 $1",
+    "description": "告訴用戶給定的搜索字符串與我們的代幣列表中的任何令牌都不匹配。 $1 可以是任何文本字符串"
+  },
+  "swapCheckingQuote": {
+    "message": "正在檢查 $1",
+    "description": "在報價加載期間向用戶顯示。 $1 是聚合器的名稱。 該消息表明 formless 當前正在檢查該聚合器是否具有其請求的掉期的交易/報價."
+  },
+  "swapConfirmWithHwWallet": {
+    "message": "確認您的硬件錢包"
+  },
+  "swapContractDataDisabledErrorDescription": {
+    "message": "在您的 Ledger 上的 Ethereum 應用程序中，轉到「設置」並允許合約數據。 然後，再次嘗試您的交換."
+  },
+  "swapContractDataDisabledErrorTitle": {
+    "message": "您的賬本上未啟用合同數據"
+  },
+  "swapCustom": {
+    "message": "自定義"
+  },
+  "swapDecentralizedExchange": {
+    "message": "去中心化交易所"
+  },
+  "swapEditLimit": {
+    "message": "修改限製"
+  },
+  "swapEnableDescription": {
+    "message": "這是必須的，並且允許 FormLess 兌換您的 $1",
+    "description": "向用戶提供有關交換所需的批準交易的信息。 $1將是被批準用於掉期的代幣的象征."
+  },
+  "swapEstimatedNetworkFee": {
+    "message": "預計網絡手續費"
+  },
+  "swapEstimatedNetworkFeeSummary": {
+    "message": "「$1」是我們預計的實際產生費用。具體數額視網絡情況而定。",
+    "description": "$1 將是 swapEstimatedNetworkFee 的翻譯，字體加粗"
+  },
+  "swapEstimatedNetworkFees": {
+    "message": "預計網絡手續費"
+  },
+  "swapEstimatedNetworkFeesInfo": {
+    "message": "這是預估的用於完成您的兌換所使用的網絡手續費。實際數額可能會根據網絡條件而變化。"
+  },
+  "swapFailedErrorDescriptionWithSupportLink": {
+    "message": "發生交易失敗，我們隨時為您提供幫助。 如果此問題仍然存在，您可以以$1聯系我們的客戶支持以獲得進一步的幫助.",
+    "description": "如果用戶交換失敗，則會向用戶顯示此消息。 $1 將被 support.formless.io 取代"
+  },
+  "swapFailedErrorTitle": {
+    "message": "兌換失敗"
+  },
+  "swapFetchingQuotesErrorDescription": {
+    "message": "呃……出錯了。再試一次，如果錯誤仍存在，請聯系客戶支持。"
+  },
+  "swapFetchingQuotesErrorTitle": {
+    "message": "獲取報價出錯"
+  },
+  "swapFetchingTokens": {
+    "message": "獲取代幣中……"
+  },
+  "swapFinalizing": {
+    "message": "確定中……"
+  },
+  "swapFromTo": {
+    "message": "The swap of $1 to $2",
+    "description": "告訴用戶他們需要在硬件錢包上確認交換 2 個代幣。 $1 是源代幣，$2 是目標代幣"
+  },
+  "swapGasFeesSplit": {
+    "message": "前一個屏幕上的 Gas 費用在這兩個交易之間分配."
+  },
+  "swapHighSlippageWarning": {
+    "message": "滑點量太高."
+  },
+  "swapLowSlippageError": {
+    "message": "交易可能失敗，最大滑點過低。"
+  },
+  "swapMaxNetworkFeeInfo": {
+    "message": "「$1」是您最多所話費的數量，當網絡不穩定時，這可能是一個大的數額。",
+    "description": "$1 將是 swapMaxNetworkFees 的翻譯，字體加粗"
+  },
+  "swapMaxNetworkFees": {
+    "message": "最大網絡手續費"
+  },
+  "swapMaxSlippage": {
+    "message": "最大滑點"
+  },
+  "swapMetaMaskFee": {
+    "message": "FormLess 手續費"
+  },
+  "swapMetaMaskFeeDescription": {
+    "message": "我們每次都能從頂級流動性資源中找到最好的價格。每次報價都會自動收取1%的手續費用，以支持 FormLess 的持續發展，使其更加完善。",
+    "description": "提供有關formless代幣費用的信息。 $1 是十進製數."
+  },
+  "swapNQuotes": {
+    "message": "$1 個報價",
+    "description": "$1 是用戶在「查看報價」屏幕上打開報價列表時可以選擇的報價數量"
+  },
+  "swapNetworkFeeSummary": {
+    "message": "網絡手續費包括處理您的兌換和在以太坊（$1）網絡上存儲的成本。FormLess 不從這筆費用中獲利。"
+  },
+  "swapNewQuoteIn": {
+    "message": "$1 後更新報價",
+    "description": "告訴用戶當前顯示的報價更新之前的時間量。 $1 是從 1:00 倒計時到 0:00 的時間"
+  },
+  "swapOnceTransactionHasProcess": {
+    "message": "一旦交易完成，您的 $1 將被添加到您的賬戶中。",
+    "description": "此消息傳達正在傳輸的代幣。 它顯示在等待交換屏幕上。 $1 將是一個代幣符號."
+  },
+  "swapPriceDifference": {
+    "message": "您將兌換 $1 $2（~$3）為 $4 $5（~$6）。",
+    "description": "此消息表示掉期的價格滑點。 $1 和 $4 是數字（例如：2.89），$2 和 $5 是符號（例如：ETH），$3 和 $6 是法定貨幣金額."
+  },
+  "swapPriceDifferenceTitle": {
+    "message": "價格差異 ~$1%",
+    "description": "$1 是代表價格差異的數字（例如：1.23）."
+  },
+  "swapPriceImpactTooltip": {
+    "message": "價格影響是當前市場價格與交易執行期間收到的金額之間的差異.價格影響是您的交易規模相對於流動資金池規模的函數."
+  },
+  "swapPriceUnavailableDescription": {
+    "message": "由於缺乏市場價格數據，無法確定價格影響.在交換之前，請確認您對即將收到的代幣數量感到滿意."
+  },
+  "swapPriceUnavailableTitle": {
+    "message": "在繼續之前檢查您的費率"
+  },
+  "swapProcessing": {
+    "message": "處理中"
+  },
+  "swapQuoteDetails": {
+    "message": "報價詳情"
+  },
+  "swapQuoteDetailsSlippageInfo": {
+    "message": "如果在您下訂單和確認訂單之間的價格發生了變化，這就叫做\"滑點\"。如果滑點超過您的\"最大滑點\"設置，您的兌換將自動取消。"
+  },
+  "swapQuoteIncludesRate": {
+    "message": "報價包含 $1% FormLess 手續費",
+    "description": "提供有關formless 代幣費用的信息。 $1 是十進製數."
+  },
+  "swapQuoteNofN": {
+    "message": "報價 $1 / $2",
+    "description": "在用戶等待獲取報價時向用戶顯示的已加載報價計數。 $1 是已經加載的報價數量，$2 是要加載的報價總數"
+  },
+  "swapQuoteSource": {
+    "message": "報價來源"
+  },
+  "swapQuotesAreRefreshed": {
+    "message": "報價會經常刷新，以反映當前的市場狀況。"
+  },
+  "swapQuotesExpiredErrorDescription": {
+    "message": "請請求新的報價，以獲得最新的價格。"
+  },
+  "swapQuotesExpiredErrorTitle": {
+    "message": "報價超時"
+  },
+  "swapQuotesNotAvailableErrorDescription": {
+    "message": "嘗試調整滑點數量設置，並再試一次。"
+  },
+  "swapQuotesNotAvailableErrorTitle": {
+    "message": "無可用報價"
+  },
+  "swapRate": {
+    "message": "費率"
+  },
+  "swapReceiving": {
+    "message": "接收"
+  },
+  "swapReceivingInfoTooltip": {
+    "message": "這是一個預估數額。確切的數額取決於滑點。"
+  },
+  "swapRequestForQuotation": {
+    "message": "請求報價"
+  },
+  "swapReviewSwap": {
+    "message": "Review Swap"
+  },
+  "swapSearchForAToken": {
+    "message": "搜索代幣"
+  },
+  "swapSelect": {
+    "message": "選擇"
+  },
+  "swapSelectAQuote": {
+    "message": "選擇一個報價"
+  },
+  "swapSelectAToken": {
+    "message": "選擇一個代幣"
+  },
+  "swapSelectQuotePopoverDescription": {
+    "message": "以下是從多個流動資金來源收集到的所有報價。"
+  },
+  "swapSlippageNegative": {
+    "message": "Slippage must be greater or equal to zero"
+  },
+  "swapSource": {
+    "message": "流動資金來源"
+  },
+  "swapSourceInfo": {
+    "message": "我們搜索多個流動性來源（交易所、聚合商和專業做市商），以找到最好的利率和最低的網絡手續費。"
+  },
+  "swapSwapFrom": {
+    "message": "兌換自"
+  },
+  "swapSwapSwitch": {
+    "message": "切換兌換代幣方向"
+  },
+  "swapSwapTo": {
+    "message": "兌換到"
+  },
+  "swapThisWillAllowApprove": {
+    "message": "這樣將允許 $1 用於兌換。"
+  },
+  "swapToConfirmWithHwWallet": {
+    "message": "與您的硬件錢包確認"
+  },
+  "swapTokenAvailable": {
+    "message": "您的 $1 已添加到您的賬戶。",
+    "description": "此消息在交換成功後顯示，並傳達用戶為交換收到的確切代幣數量。 $1 是代幣的十進製數，後跟代幣符號."
+  },
+  "swapTokenBalanceUnavailable": {
+    "message": "我們無法取回您的 $1 余額",
+    "description": "此消息向用戶傳達他們的給定代幣余額當前不可用。 $1 將被代幣符號取代"
+  },
+  "swapTokenToToken": {
+    "message": "兌換 $1 到 $2",
+    "description": "在交易顯示列表中用於描述交換。 $1 和 $2 是參與交換的代幣符號."
+  },
+  "swapTokenVerificationAddedManually": {
+    "message": "此代幣已手動添加."
+  },
+  "swapTokenVerificationMessage": {
+    "message": "始終在 $1 上確認代幣地址.",
+    "description": "將用戶指向 Etherscan 作為他們可以驗證有關令牌的信息的地方。 $1 替換為 \"Etherscan\" 的翻譯，後跟一個顯示更多懸停信息的信息圖標."
+  },
+  "swapTokenVerificationOnlyOneSource": {
+    "message": "僅在 1 個來源上進行了驗證."
+  },
+  "swapTokenVerificationSources": {
+    "message": "在 $1 來源上驗證.",
+    "description": "表示識別符號+地址的代幣信息源數量。 $1 是十進製數."
+  },
+  "swapTransactionComplete": {
+    "message": "交易完成"
+  },
+  "swapTwoTransactions": {
+    "message": "2 transactions"
+  },
+  "swapUnknown": {
+    "message": "未知的"
+  },
+  "swapUsingBestQuote": {
+    "message": "使用最好的報價"
+  },
+  "swapVerifyTokenExplanation": {
+    "message": "多個代幣可以使用相同的名稱和符號。檢查 $1（以太坊瀏覽器）以確認這是您正在尋找的代幣。",
+    "description": "這出現在 verifyThisTokenOn 消息旁邊的工具提示中。 它為用戶提供了更多關於為什麽他們應該在區塊瀏覽器上檢查代幣的信息。 $1 將是區塊瀏覽器的名稱或網址，這將是「etherscan」的翻譯或為自定義網絡指定的區塊瀏覽器網址."
+  },
+  "swapYourTokenBalance": {
+    "message": "$1 $2 可用",
+    "description": "告訴用戶他們的余額中有多少代幣。 $1 是代幣的十進製數，$2 是代幣符號"
+  },
+  "swapZeroSlippage": {
+    "message": "0% 滑點"
+  },
+  "swapsAdvancedOptions": {
+    "message": "高級選項"
+  },
+  "swapsExcessiveSlippageWarning": {
+    "message": "滑點數額太高，會導致不良率。請將滑點設置降低到 15% 以下。"
+  },
+  "swapsMaxSlippage": {
+    "message": "最大滑點"
+  },
+  "swapsNotEnoughForTx": {
+    "message": "沒有足夠的 $1 來完成此交易",
+    "description": "告訴用戶他們沒有足夠的代幣進行提議的交換。 $1 是代幣符號"
+  },
+  "swapsViewInActivity": {
+    "message": "在活動中查看"
+  },
+  "switchEthereumChainConfirmationDescription": {
+    "message": "這會將 FormLess 中選定的網絡切換到之前添加的網絡:"
+  },
+  "switchEthereumChainConfirmationTitle": {
+    "message": "允許此站點切換網絡?"
+  },
+  "switchLedgerPaths": {
+    "message": "切換分類帳路徑"
+  },
+  "switchLedgerPathsText": {
+    "message": "選擇分類帳路徑以查看其他帳戶"
+  },
+  "switchNetwork": {
+    "message": "切換網絡"
+  },
+  "switchNetworks": {
+    "message": "切換網絡"
+  },
+  "switchToThisAccount": {
+    "message": "切換到該賬戶"
+  },
+  "switchingNetworksCancelsPendingConfirmations": {
+    "message": "切換網絡將取消所有待處理的確認"
+  },
+  "symbol": {
+    "message": "符號"
+  },
+  "symbolBetweenZeroTwelve": {
+    "message": "符號不得超過 11 個字符。"
+  },
+  "syncInProgress": {
+    "message": "Sync in progress"
+  },
+  "syncWithMobile": {
+    "message": "使用移動設備同步"
+  },
+  "syncWithMobileBeCareful": {
+    "message": "掃描這個代碼時，請確保附近沒有其他人在看您的屏幕。"
+  },
+  "syncWithMobileComplete": {
+    "message": "您的數據已同步成功。盡情體驗 FormLess 應用程序！"
+  },
+  "syncWithMobileDesc": {
+    "message": "您可以使用個人移動設備同步個人賬戶與信息。打開 FormLess 移動應用程序，進入「設置」選項，點擊「通過瀏覽器擴展程序同步」"
+  },
+  "syncWithMobileDescNewUsers": {
+    "message": "如果您是首次啟用 FormLess 移動應用程序，請通過個人手機完成如下操作。"
+  },
+  "syncWithMobileScanThisCode": {
+    "message": "使用 FormLess 應用程序掃描代碼"
+  },
+  "syncWithMobileTitle": {
+    "message": "使用移動設備進行同步"
+  },
+  "syncWithThreeBox": {
+    "message": "使用 3Box 同步數據（實驗功能）"
+  },
+  "syncWithThreeBoxDescription": {
+    "message": "開啟後可以用 3Box 備份您的設置。此功能目前是實驗功能，使用時風險自負。"
+  },
+  "syncWithThreeBoxDisabled": {
+    "message": "由於初始同步過程中出現錯誤，3Box 已被禁用。"
+  },
+  "terms": {
+    "message": "使用條款"
+  },
+  "termsOfService": {
+    "message": "服務條款"
+  },
+  "testFaucet": {
+    "message": "測試水管"
+  },
+  "thisWillCreate": {
+    "message": "將為您創建新的錢包賬戶和賬戶助記詞"
+  },
+  "tips": {
+    "message": "小貼士"
+  },
+  "to": {
+    "message": "至"
+  },
+  "toAddress": {
+    "message": "至：$1",
+    "description": "$1是包含在 To 標簽中的地址。 它通常首先使用縮短地址縮短"
+  },
+  "toWithColon": {
+    "message": "至："
+  },
+  "token": {
+    "message": "代幣"
+  },
+  "tokenAlreadyAdded": {
+    "message": "代幣已添加。"
+  },
+  "tokenContractAddress": {
+    "message": "代幣合約地址"
+  },
+  "tokenDecimalFetchFailed": {
+    "message": "Token decimal required."
+  },
+  "tokenSymbol": {
+    "message": "代幣符號"
+  },
+  "tooltipApproveButton": {
+    "message": "I understand"
+  },
+  "total": {
+    "message": "總額"
+  },
+  "transConfirm": {
+    "message": "交易確認"
+  },
+  "transHistory": {
+    "message": "交易歷史"
+  },
+  "transRecord": {
+    "message": "交易記錄"
+  },
+  "transaction": {
+    "message": "交易"
+  },
+  "transactionCancelAttempted": {
+    "message": "嘗試取消交易 $2，燃料費用：$1。"
+  },
+  "transactionCancelSuccess": {
+    "message": "取消交易成功 $2。"
+  },
+  "transactionConfirmed": {
+    "message": "交易已確認 $2。"
+  },
+  "transactionCreated": {
+    "message": "交易已創建 $2，交易數額：$1。"
+  },
+  "transactionDetails": {
+    "message": "交易詳情"
+  },
+  "transactionDropped": {
+    "message": "交易終止 $2。"
+  },
+  "transactionError": {
+    "message": "交易出錯。合約代碼執行異常。"
+  },
+  "transactionErrorNoContract": {
+    "message": "試圖在一個非合約地址上調用一個函數。"
+  },
+  "transactionErrored": {
+    "message": "交易出現錯誤。"
+  },
+  "transactionFee": {
+    "message": "交易費用"
+  },
+  "transactionFeeLimit": {
+    "message": "交易費用限製"
+  },
+  "transactionResubmitted": {
+    "message": "重新提交交易 $2，交易費升至：$1。"
+  },
+  "transactionSubmitted": {
+    "message": "交易已提交 $2，交易費：$1。"
+  },
+  "transactionType1": {
+    "message": "交易已創建"
+  },
+  "transactionType10": {
+    "message": "嘗試取消交易"
+  },
+  "transactionType11": {
+    "message": "燃料費用"
+  },
+  "transactionType12": {
+    "message": "取消交易成功"
+  },
+  "transactionType2": {
+    "message": "交易金額"
+  },
+  "transactionType3": {
+    "message": "交易已提交"
+  },
+  "transactionType4": {
+    "message": "交易費用"
+  },
+  "transactionType5": {
+    "message": "重新提交交易"
+  },
+  "transactionType6": {
+    "message": "交易費升至"
+  },
+  "transactionType7": {
+    "message": "交易已確認"
+  },
+  "transactionType8": {
+    "message": "交易出現錯誤"
+  },
+  "transactionType9": {
+    "message": "交易終止"
+  },
+  "transactionUpdated": {
+    "message": "交易更新時間 $2。"
+  },
+  "transfer": {
+    "message": "轉賬"
+  },
+  "transferBetweenAccounts": {
+    "message": "在我的賬戶間轉賬"
+  },
+  "transferFrom": {
+    "message": "轉自"
+  },
+  "troubleConnectingToWallet": {
+    "message": "我們在連接您的  $1 遇到問題，嘗試檢查 $2 並重試。",
+    "description": "$1 是錢包設備名稱； $2 是錢包連接指南的鏈接"
+  },
+  "troubleTokenBalances": {
+    "message": "我們無法加載您的代幣余額。您可以查看它們",
+    "description": "後跟一個鏈接（此處）以查看代幣余額"
+  },
+  "trustSiteApprovePermission": {
+    "message": "您信任這個網站嗎？授權即表示您允許 $1 提取您的 $2，並為您自動進行交易。",
+    "description": "$1是請求許可的 url，$2 是請求所針對的貨幣的符號"
+  },
+  "tryAgain": {
+    "message": "重試"
+  },
+  "type": {
+    "message": "類型"
+  },
+  "typePassword": {
+    "message": "輸入您的 FormLess 密碼"
+  },
+  "unapproved": {
+    "message": "未批準"
+  },
+  "units": {
+    "message": "數量"
+  },
+  "unknown": {
+    "message": "未知"
+  },
+  "unknownCameraError": {
+    "message": "嘗試獲取相機使用權限時報錯。請重試……"
+  },
+  "unknownCameraErrorTitle": {
+    "message": "哎呀！出問題了……"
+  },
+  "unknownNetwork": {
+    "message": "未知的私有網絡"
+  },
+  "unknownQrCode": {
+    "message": "錯誤：無法識別該二維碼"
+  },
+  "unlimited": {
+    "message": "無限製"
+  },
+  "unlock": {
+    "message": "解鎖"
+  },
+  "unlockMessage": {
+    "message": "即將進入去中心化網絡"
+  },
+  "unrecognizedChain": {
+    "message": "無法識別此自定義網絡。 我們建議您在繼續之前支付$1",
+    "description": "$1是一個帶有由「unrecognizedChanLinkText」鍵定義的文本的可點擊鏈接。 該鏈接將打開以供用戶驗證自定義網絡詳細信息的說明."
+  },
+  "unrecognizedChainLinkText": {
+    "message": "驗證網絡詳細信息",
+    "description": "用作「unrecognizedChain」鍵的鏈接文本。 此文本將嵌入該鍵的翻譯中."
+  },
+  "unsendableAsset": {
+    "message": "目前不支持發送收藏品 (ERC-721) 代幣",
+    "description": "這是我們向用戶顯示的錯誤消息，如果他們嘗試發送當前不支持發送的收藏資產類型"
+  },
+  "updatedWithDate": {
+    "message": "已更新 $1"
+  },
+  "urlErrorMsg": {
+    "message": "URL 需要相應的 HTTP/HTTPS 前綴。"
+  },
+  "urlExistsErrorMsg": {
+    "message": "URL 已經存在於現有的網絡列表中"
+  },
+  "usePhishingDetection": {
+    "message": "使用網絡釣魚檢測"
+  },
+  "usePhishingDetectionDescription": {
+    "message": "顯示針對 Ethereum 用戶釣魚域名的警告。"
+  },
+  "usedByClients": {
+    "message": "可用於各種不同的客戶端"
+  },
+  "userName": {
+    "message": "名稱"
+  },
+  "validateWords": {
+    "message": "驗證助記詞"
+  },
+  "verifyThisTokenDecimalOn": {
+    "message": "代幣十進製可以在 $1 上找到",
+    "description": "將用戶指向 etherscan 作為他們可以驗證有關令牌的信息的地方。 $1 被替換為 \"etherscan\""
+  },
+  "verifyThisTokenOn": {
+    "message": "在 $1 上驗證此代幣",
+    "description": "將用戶指向 etherscan 作為他們可以驗證有關令牌的信息的地方。 $1 被替換為\"etherscan\""
+  },
+  "verifyThisUnconfirmedTokenOn": {
+    "message": "在 $1 上驗證此代幣並確保這是您要交易的代幣.",
+    "description": "將用戶指向 etherscan 作為他們可以驗證有關令牌的信息的地方。 $1 被替換為\"etherscan\""
+  },
+  "viewAccount": {
+    "message": "查看賬戶"
+  },
+  "viewAllDetails": {
+    "message": "View all details"
+  },
+  "viewContact": {
+    "message": "查看聯系人"
+  },
+  "viewFullTransactionDetails": {
+    "message": "查看完整的交易細節"
+  },
+  "viewMore": {
+    "message": "查看更多"
+  },
+  "viewOnCustomBlockExplorer": {
+    "message": "在 $1 查看"
+  },
+  "viewOnEtherscan": {
+    "message": "在 Etherscan（以太坊瀏覽器）上查看"
+  },
+  "viewinExplorer": {
+    "message": "在瀏覽器中查看"
+  },
+  "visitWebSite": {
+    "message": "訪問我們的網站"
+  },
+  "walletConnectionGuide": {
+    "message": "我們的硬件錢包連接指南"
+  },
+  "walletDetail": {
+    "message": "錢包詳情"
+  },
+  "walletSeed": {
+    "message": "賬戶助記詞"
+  },
+  "walletSeedRestore": {
+    "message": "錢包密鑰找回助記詞"
+  },
+  "web3ShimUsageNotification": {
+    "message": "我們發現當前的網站嘗試使用已經刪除的 window.web3 API。如果這個網站網站已經無法正常使用，請點擊 $1 獲取更多信息。",
+    "description": "$1是一個可點擊的鏈接."
+  },
+  "welcome": {
+    "message": "歡迎使用 FormLess"
+  },
+  "welcomeBack": {
+    "message": "歡迎回來！"
+  },
+  "welcomeText": {
+    "message": "歡迎使用"
+  },
+  "whatsNew": {
+    "message": "What's new",
+    "description": "這是一個彈出窗口的標題，它向用戶提供有關 FormLess 的新功能和更新的通知."
+  },
+  "whatsThis": {
+    "message": "這是什麽？"
+  },
+  "writePhrase": {
+    "message": "請將該賬戶助記詞記錄在紙上，並保存在安全的地方。如果希望提升信息安全性，請將信息記錄在多張紙上，並分別保存在 2 - 3 個不同的地方。"
+  },
+  "xOfY": {
+    "message": "$1 / $2",
+    "description": "$1 and $2 是兩個數字，其中 $2 是總數，$1 是該總數的計數"
+  },
+  "xOfYPending": {
+    "message": "$1 of $2 pending",
+    "description": "$1 和 $2 是兩個數字，其中 $2 是待處理確認的總數，$1 是該總數的計數"
+  },
+  "yesLetsTry": {
+    "message": "是的，嘗試下"
+  },
+  "youNeedToAllowCameraAccess": {
+    "message": "需要開啟相機訪問權限，才能使用該功能。"
+  },
+  "youSign": {
+    "message": "正在簽名"
+  },
+  "yourPrivateSeedPhrase": {
+    "message": "您的賬戶助記詞"
+  },
+  "zeroGasPriceOnSpeedUpError": {
+    "message": "加速時無燃料價格"
+  },
+
+
+  "walletCreatedSuccessfully":{
+    "message": "您已成功創建錢包"
+  },
+  "walletSafetyTips1":{
+    "message": "請妥善保管您的助記詞！Formless 不會存儲您的助記詞！"
+  },
+  "walletSafetyTips2":{
+    "message": "將助記詞備份到多個地方；"
+  },
+  "walletSafetyTips3":{
+    "message": "不要向任何人分享助記詞；"
+  },
+  "walletSafetyTips4":{
+    "message": "謹防網絡釣魚！Formless 絕不會主動要求您提供助記詞；"
+  },
+  "walletSafetyTips5":{
+    "message": "將助記詞寫在紙上並放置在安全的位置"
+  },
+  "walletSafetyTips6":{
+    "message": "如果助記詞丟失或被盜，你的資產可能會面臨損失"
+  },
+  "walletSafetyTips7":{
+    "message": "如果您更換瀏覽器或設備，需要使用此助記詞，請妥善保管助記詞。"
+  },
+  "walletSafetyTips8":{
+    "message": "如果您需要再次備份助記詞，請在插件內選擇此錢包進行導出；"
+  },
+  "walletSafetyTips9":{
+    "message": " 請確保您在安全的地方備份私鑰！一旦他人竊取您的私鑰，您的資產可能損失。"
+  },
+  "validationError":{
+    "message": "驗證錯誤，請重試!"
+  },
+  "setPassword":{
+    "message": "設置密碼"
+  },
+  "downMnemonics":{
+    "message": "下載助記詞"
+  },
+  "writtenItDown":{
+    "message": "我已記下"
+  },
+  "yourMnemonics":{
+    "message": "您的助記詞"
+  },
+  "copy":{
+    "message": "復製"
+  },
+  "saveTxt":{
+    "message": "保存為TXT文件"
+  },
+  "incorrectPassword":{
+    "message":"密碼錯誤"
+  },
+  "uint8ArrayError":{
+    "message":"私鑰應為長度為32的Uint8Array"
+  },
+  "notV3Wallet":{
+    "message":"不是V3錢包"
+  }
+}

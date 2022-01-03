@@ -1,0 +1,264 @@
+@import 'connect-hardware/index';
+@import 'import-account/index';
+
+.new-account { 
+  width: 375px;
+  background-color: #fff;
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.08);
+  z-index: 25;
+  height: unset;
+  overflow: auto;
+  scrollbar-width: none;
+  margin-top: -245px;
+  z-index: 9;
+  background: url(./images/bg.png);
+  background-size: cover;
+
+  &-header{
+    font-family: Euclid, Roboto, Helvetica, Arial, sans-serif;
+    line-height: 140%;
+    font-style: normal;
+    font-weight: normal;
+    color: #24292e;
+    background-color: inherit;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #fff;
+    position: relative;
+    width: 100%;
+    background: rgba(0,0,0,0);
+    padding: 16px;
+    img{
+      width: 24px;
+    }
+    .content{
+      position: absolute;
+      left: 40px;
+      right: 40px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      text-align: center;
+    }
+  }
+
+  &-btn-list{
+    margin-top: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &.an{
+      margin-top: 100px;
+    }
+    &.bn{
+      margin-top: 200px;
+    }
+    &.cn{
+      margin-top: 54px;
+    }
+    div{
+      width: 120px;
+      height: 47px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: url(./images/create-btn1.png);
+      background-size: 100%; 
+      color: #fff; 
+      cursor: pointer;
+      &.an{
+        margin-left: 20px;
+        background: url(./images/create-btn2.png);
+        background-size: 100%;
+      }
+      &.disabled{
+        opacity: 0.3;
+      }
+    }
+  }
+  .rs-export-key-error{
+    padding-top: 5px;
+    color: #ff0000;
+    font-size: 14px;
+  }
+  &-import-newDisclaimer{
+    margin-top: 20px;
+    border-radius: 8px;
+    color: #fff;
+    background: rgba(124,98,230,0.3);
+    padding: 10px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  &-content-addAccount{
+    font-size: 22px;
+    color: #fff;
+    position: relative;
+    &.an{
+      margin-top: 150px;
+    }
+    &.bn{
+      margin-top: 40px;
+    }
+    &.cn{
+      margin-top: 80px;
+    }
+    // &:hover{
+    //   .rs-addAccount-list{
+    //     display: block;
+    //   }
+    // }
+    .name{
+      color: #fff;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+    .new-account-content-input{
+      width: 310px;
+      height: 44px;
+      background: url(./images/unlock-input.png);
+      background-size: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      input{
+        cursor: pointer;
+        border: none;
+        background: rgba(0,0,0,0);
+        padding: 0 16px;
+        height: 44px;
+        line-height: 44px;
+        font-size: 14px;
+        outline: none;
+        color: #fff;
+        width: 100%;
+        &::-webkit-outer-spin-button,
+        &::-webkit-inner-spin-button { -webkit-appearance: none; }
+        &[type="number"]{ -moz-appearance: textfield; }
+      }
+      img{
+        width: 9px;
+        height: 12px;
+        margin-right: 16px;
+        &.an{
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+    .rs-addAccount-list{
+      display: none;
+      width: 310px;
+      position: absolute;
+      z-index: 9;
+      .rs-addAccount-li{
+        height: 44px;
+        display: flex;
+        align-items: center;
+        padding: 0 16px;
+        font-size: 16px;
+        background: rgba(44,44,44,1);
+        cursor: pointer;
+        &.an{
+          color: #7C62E6;
+        }
+        &:first-child{
+          border-bottom: 1px solid rgba(255,255,255,0.6);
+        }
+      }
+    }
+  }
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  @media screen and (min-width: 576px) {
+    position: absolute;
+  }
+
+  &__header {
+    display: flex;
+    flex-flow: column;
+    border-bottom: 1px solid $geyser;
+  }
+
+  &__title {
+    @include H2;
+
+    color: $tundora;
+    font-weight: 500;
+    margin-top: 22px;
+    margin-left: 29px;
+  }
+
+  &__tabs {
+    margin-left: 22px;
+    display: flex;
+    margin-top: 10px;
+
+    &__tab {
+      @include H4;
+
+      height: 54px;
+      padding: 15px 10px;
+      color: $dusty-gray;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    &__tab:hover {
+      color: $black;
+      border-bottom: none;
+    }
+
+    &__selected {
+      color: $primary-blue;
+      border-bottom: 3px solid $primary-blue;
+      cursor: initial;
+      pointer-events: none;
+    }
+  }
+}
+
+
+.new-account-create-form {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+
+  &__input-label {
+    @include Paragraph;
+
+    color: $scorpion;
+    align-self: flex-start;
+  }
+
+  &__input {
+    @include Paragraph;
+
+    height: 54px;
+    width: 315.84px;
+    border: 1px solid $geyser;
+    border-radius: 4px;
+    background-color: $white;
+    color: $scorpion;
+    margin-top: 15px;
+    padding: 0 20px;
+  }
+
+  &__buttons {
+    margin-top: 39px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  &__button {
+    width: 150px;
+    min-width: initial;
+  }
+}

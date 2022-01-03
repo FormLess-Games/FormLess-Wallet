@@ -1,0 +1,41 @@
+.dropdown-wrap{
+  width: 100%;
+  height: 44px;
+  background: url('./images/unlock-input.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.dropdown {
+  @include H6;
+
+  appearance: none;
+
+  // TODO: remove these after getting autoprefixer working in Storybook
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  // border: 1px solid #d2d8dd;
+  // border-radius: 6px;
+  background-image: url('/images/icons/caret-down.svg');
+  background-repeat: no-repeat, repeat;
+  background-position: right 18px top 50%;
+  background-color: transparent;
+  padding: 8px 32px 8px 16px;
+
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  background-size: 16px 16px;
+
+
+  &:focus-visible{
+    outline: none;
+  }
+
+  [dir='rtl'] & {
+    background-position: left 18px top 50%;
+    padding: 8px 16px 8px 32px;
+  }
+}
