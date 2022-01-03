@@ -1,4 +1,4 @@
-# MetaMask Browser Extension
+# Formless Browser Extension
 
 # Modify the injected variable as window.formless
 After installing the dependencies, modify the file /node_modules/@metamask/providers/dist/initializeInpageProvider.js，
