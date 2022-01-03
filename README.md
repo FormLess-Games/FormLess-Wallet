@@ -1,8 +1,8 @@
 # MetaMask Browser Extension
 
-# 修改注入变量为window.formless
-安装依赖之后，修改文件/node_modules/@metamask/providers/dist/initializeInpageProvider.js，
- setGlobalProvider 方法里 ethereum 为 formless
+# Modify the injected variable as window.formless
+After installing the dependencies, modify the file /node_modules/@metamask/providers/dist/initializeInpageProvider.js，
+ setGlobalProvider Method ethereum to formless
 
 Hey! We are hiring JavaScript Engineers! [Apply here](https://boards.greenhouse.io/consensys/jobs/2572388)!
 ---
